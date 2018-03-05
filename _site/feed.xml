@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ITB Tech Talks</title>
+    <description>Short talks introducing current technology and libraries (python/R) useful for Theoretical &amp; Computational Biology.</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>02 - Virtual Environments in Python</title>
+        <description>
+          
+          Virtual environments in python.
+
+        </description>
+        <pubDate>Mon, 05 Mar 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2018-03-05-02_virtualenv/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-03-05-02_virtualenv/</guid>
+      </item>
+    
+      <item>
+        <title>01 - A quick introduction to git</title>
+        <description>
+          
+          We are facing a reproducibility crisis in Computational Biology and Theoretical Biology. A key tool to make scientific research reproducible, allow cooperative work on files and versioning of resources are version control systems. This talks will give a short introduction to git, a free and open source distributed version control...
+        </description>
+        <pubDate>Tue, 27 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2018-02-27-01_git_tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-02-27-01_git_tutorial/</guid>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,23 @@
-# 01 - A quick introduction to git
+---
+layout: post
+title: 01 - A quick introduction to git
+image: /talks/01_git/github.png
+tags: [git, repository]
+---
 
-See also
+We are facing a reproducibility crisis in Computational Biology and Theoretical Biology. A key tool to make scientific research reproducible, allow cooperative work on files and versioning of resources are version control systems. This talks will give a short introduction to git, a free and open source distributed version control system with
+* tiny footprint
+* lighning fast performance
+* working for everything from small to very large projects.
+
+Articles about computational science are not the scholarship itself, but only advertisment for the scholarship. The actual scholarship it the complete set of instructions which generates the analysis, figures and results. Version control systems support us in making our research accessible and versioning models and computational resources.
+
+## Tutorial
+The tutorial gives a short introduction on how to setup a new repository, checking the status, versioning of files and submitting files to remote repositories.
+
+For a online tutorial introducing these steps go to
 https://try.github.io/levels/1/challenges/1
+
 
 ### Initialise the repository
 A **directory** is a folder for storing multiple files.
@@ -41,6 +57,7 @@ git status
 * **unstaged**: files with changes which have not been prepared to be committed
 * **untracked**: files aren't tracked by git yet
 * **deleted**: files that have been deleted and are waiting to be removed
+
 ```
 git add README.md
 git add 01_git
@@ -104,4 +121,23 @@ git merge update-readme
 git branch -d update-readme
 git push
 ```
+
+## Resources
+* https://try.github.io/levels/1/challenges/1
+* Perez-Riverol, Y.; Gatto, L.; Wang, R.; Sachsenberg, T.; Uszkoreit, J.; Leprevost, F. d. V.;
+Fufezan, C.; Ternent, T.; Eglen, S. J.; Katz, D. S.; Pollard, T. J.; Konovalov, A.; Flight, R. M.;
+Blin, K. & Vizcaíno, J. A.
+Ten Simple Rules for Taking Advantage of Git and GitHub.
+PLoS computational biology, 2016, 12, e1004947
+* Blischak, J. D.; Davenport, E. R. & Wilson, G.
+A Quick Introduction to Version Control with Git and GitHub.
+PLoS computational biology, 2016, 12, e1004668
+* Ram, K.
+Git can facilitate greater reproducibility and increased transparency in science.
+Source code for biology and medicine, 2013, 8, 7
+Tutorials
+https://try.github.io/levels/1/challenges/1
+● Information/Books
+https://git-scm.com/
+https://git-scm.com/book/en/v2
 

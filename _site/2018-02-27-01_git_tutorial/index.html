@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>01 - A quick introduction to git</title>
+
+  <meta name="author" content="Matthias König" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="ITB Tech Talks - Short talks introducing current technology and libraries (python/R) useful for Theoretical & Computational Biology." href="/feed.xml" />
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="01 - A quick introduction to git" />
+  
+
+   
+  <meta property="og:description" content="We are facing a reproducibility crisis in Computational Biology and Theoretical Biology. A key tool to make scientific research reproducible, allow cooperative work on files and versioning of resources are version control systems. This talks will give a short introduction to git, a free and open source distributed version control...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/2018-02-27-01_git_tutorial/" />
+  <link rel="canonical" href="http://localhost:4000/2018-02-27-01_git_tutorial/" />
+  
+
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="01 - A quick introduction to git" />
+  
+
+  
+  <meta name="twitter:description" content="We are facing a reproducibility crisis in Computational Biology and Theoretical Biology. A key tool to make scientific research reproducible, allow cooperative work on files and versioning of resources are version control systems. This talks will give a short introduction to git, a free and open source distributed version control...">
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">ITB Tech Talks</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="https://livermetabolism.com">Author's home</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/talks/01_git/github.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>01 - A quick introduction to git</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on February 27, 2018</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p>We are facing a reproducibility crisis in Computational Biology and Theoretical Biology. A key tool to make scientific research reproducible, allow cooperative work on files and versioning of resources are version control systems. This talks will give a short introduction to git, a free and open source distributed version control system with</p>
+<ul>
+  <li>tiny footprint</li>
+  <li>lighning fast performance</li>
+  <li>working for everything from small to very large projects.</li>
+</ul>
+
+<p>Articles about computational science are not the scholarship itself, but only advertisment for the scholarship. The actual scholarship it the complete set of instructions which generates the analysis, figures and results. Version control systems support us in making our research accessible and versioning models and computational resources.</p>
+
+<h2 id="tutorial">Tutorial</h2>
+<p>The tutorial gives a short introduction on how to setup a new repository, checking the status, versioning of files and submitting files to remote repositories.</p>
+
+<p>For a online tutorial introducing these steps go to
+https://try.github.io/levels/1/challenges/1</p>
+
+<h3 id="initialise-the-repository">Initialise the repository</h3>
+<p>A <strong>directory</strong> is a folder for storing multiple files.
+A <strong>repository</strong> is a directory where git has been initialized for version 
+controlling the files.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>mkdir itbtechtalks
+cd itbtechtalks
+watch --color -n0 ls -al --color
+watch --color -n0 tree . --al
+</code></pre>
+</div>
+
+<p>To initialize a Git repository here, type the following command:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git init
+</code></pre>
+</div>
+<p>This creates the ‘.git’ directory used to track the files.</p>
+
+<h3 id="check-status-of-repository">Check status of repository</h3>
+<p>Next up, let’s type the git status command to see what the current state of our project is:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git status
+</code></pre>
+</div>
+
+<h3 id="add-files-to-repository">Add files to repository</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>cp -R ../itbtechtalks2/01_git/ .
+cp ../itbtechtalks2/README.md .
+</code></pre>
+</div>
+
+<p>We now have untracked files in the repository</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git status
+</code></pre>
+</div>
+<ul>
+  <li><strong>staged</strong>: files are ready to be commited</li>
+  <li><strong>unstaged</strong>: files with changes which have not been prepared to be committed</li>
+  <li><strong>untracked</strong>: files aren’t tracked by git yet</li>
+  <li><strong>deleted</strong>: files that have been deleted and are waiting to be removed</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git add README.md
+git add 01_git
+git status
+</code></pre>
+</div>
+
+<h3 id="commit-changes">Commit changes</h3>
+<p>A commit is a snapshot of our repository.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git commit -m"Add git presentation"
+</code></pre>
+</div>
+
+<h3 id="see-the-change-log">See the change log</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>git log
+</code></pre>
+</div>
+
+<h3 id="add-remote-repository--push">Add remote repository &amp; push</h3>
+<p>To push our local repo to the GitHub server we’ll need to add a remote repository.
+We create a remote repository and add it to git</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git remote add origin https://github.com/matthiaskoenig/itbtechtalks.git
+</code></pre>
+</div>
+<p>Than we push our local changes to the remote repository.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git push -u origin master
+</code></pre>
+</div>
+
+<h3 id="pulling-remotely">Pulling remotely</h3>
+<p>We can check for changes on our GitHub repository and pull down any new changes by running:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git pull origin master
+</code></pre>
+</div>
+
+<h3 id="looking-at-changes">Looking at changes</h3>
+<p>In this case we want the diff of our most recent commit, which we can refer to using the HEAD pointer</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git diff HEAD
+</code></pre>
+</div>
+
+<h3 id="reverting-changes-undo">Reverting changes (Undo)</h3>
+<p>Files can be reverted to any commit, for instance last commit via</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git checkout README.md 
+</code></pre>
+</div>
+
+<h3 id="working-on-a-different-branch">Working on a different branch</h3>
+<p>Branches are what naturally happens when you want to work on multiple features at the same time. You wouldn’t want to end up with a master branch which has Feature A half done and Feature B half done.</p>
+
+<p>Rather you’d separate the code base into two “snapshots” (branches) and work on and commit to them separately. As soon as one was ready, you might merge this branch back into the master branch and push it to the remote server.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>git branch update-readme
+git checkout update-readme
+</code></pre>
+</div>
+<p>Make changes and commit.</p>
+
+<h3 id="merging-changes-in-master--delete-old-branch">Merging changes in master &amp; delete old branch</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>git checkout master
+git merge update-readme
+git branch -d update-readme
+git push
+</code></pre>
+</div>
+
+<h2 id="resources">Resources</h2>
+<ul>
+  <li>https://try.github.io/levels/1/challenges/1</li>
+  <li>Perez-Riverol, Y.; Gatto, L.; Wang, R.; Sachsenberg, T.; Uszkoreit, J.; Leprevost, F. d. V.;
+Fufezan, C.; Ternent, T.; Eglen, S. J.; Katz, D. S.; Pollard, T. J.; Konovalov, A.; Flight, R. M.;
+Blin, K. &amp; Vizcaíno, J. A.
+Ten Simple Rules for Taking Advantage of Git and GitHub.
+PLoS computational biology, 2016, 12, e1004947</li>
+  <li>Blischak, J. D.; Davenport, E. R. &amp; Wilson, G.
+A Quick Introduction to Version Control with Git and GitHub.
+PLoS computational biology, 2016, 12, e1004668</li>
+  <li>Ram, K.
+Git can facilitate greater reproducibility and increased transparency in science.
+Source code for biology and medicine, 2013, 8, 7
+Tutorials
+https://try.github.io/levels/1/challenges/1
+● Information/Books
+https://git-scm.com/
+https://git-scm.com/book/en/v2</li>
+</ul>
+
+
+      </article>
+
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#git">git</a>
+          
+            <a href="/tags#repository">repository</a>
+          
+          
+        </div>
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a href="https://twitter.com/intent/tweet?text=01+-+A+quick+introduction+to+git+http://localhost:4000/2018-02-27-01_git_tutorial/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+
+  
+
+  
+  <!--- Share on LinkedIn -->
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2018-02-27-01_git_tutorial/"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        
+        <li class="next">
+          <a href="/2018-03-05-02_virtualenv/" data-toggle="tooltip" data-placement="top" title="02 - Virtual Environments in Python">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="mailto:someone@example.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://www.facebook.com/daattali" title="Facebook"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li><li><a href="https://github.com/daattali" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/daattali" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Matthias König
+      &nbsp;&bull;&nbsp;
+      2018
+
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+  
+  </body>
+</html>
