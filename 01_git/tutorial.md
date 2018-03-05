@@ -1,4 +1,4 @@
-# Introduction to git
+# 01 - A quick introduction to git
 
 See also
 https://try.github.io/levels/1/challenges/1
