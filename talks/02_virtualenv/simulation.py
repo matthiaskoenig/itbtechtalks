@@ -1,5 +1,5 @@
 """
-Simple ODE model demonstrating virtual environments.
+Using Lorenz ODE model to demonstrate virtual environments.
 """
 
 import numpy as np
@@ -7,25 +7,13 @@ import pandas as pd
 from scipy.integrate import odeint
 from matplotlib import pyplot as plt
 
-# global settings for plots
-plt.rcParams.update({
-        'axes.labelsize': 'large',
-        'axes.labelweight': 'bold',
-        'axes.titlesize': 'large',
-        'axes.titleweight': 'bold',
-        'legend.fontsize': 'large',
-        'xtick.labelsize': 'large',
-        'ytick.labelsize': 'large',
-        'figure.facecolor': '1.00'
-    })
-
 
 def lorenz_dxdt(x, t):
     """ Differential equations for Lorenz.
 
     :param x: state vector
     :param t: time
-    :return: ode system
+    :return: ODE system
     """
     r = 45.92
     b = 4.0
