@@ -1,9 +1,7 @@
-
 numpy
 scipy
 matplotlib
 pandas
-tellurium
 plotly
 
 # additional packages for jupyter
