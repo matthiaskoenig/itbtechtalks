@@ -1,0 +1,12 @@
+
+numpy
+scipy
+matplotlib
+pandas
+tellurium
+
+# additional packages for jupyter
+ipykernel
+jupyter
+jupyterlab
+
