@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1>ODE System: {{ mid }} </h1>
+    <h2>Initial conditions</h2>
+    <table class="table table-responsive table-dark table-striped">
+        <thead>
+        <tr>
+            <th>id</th><th>value</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for id in xids %}
+        <tr><td>{{ id}}</td><td>{{ x0[id] }}</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Parameters</h2>
+    <table class="table table-responsive table-dark table-striped">
+        <thead>
+        <tr>
+            <th>id</th><th>value</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for id in pids %}
+        <tr><td>{{ id }}</td><td>{{ p[id] }}</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>ODEs</h2>
+    <table class="table table-responsive table-dark table-striped">
+        <thead>
+        <tr>
+            <th>state</th><th>formula</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for id in xids %}
+        <tr><td>{{ id }}</td><td>{{ dxdt[id] }}</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,14 +1,12 @@
 """
-Convert SBML models to ODE systems for various programming languages.
+Convert ODE systems for various programming languages and formats.
 This allows easy integration with existing workflows by rendering respective code templates.
 
 Currently supported code generation:
 - python: scipy
 - R: desolve
-
+- HTML
 """
-
-
 import os
 from pprint import pprint
 import re
@@ -23,6 +21,7 @@ TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templat
 class ODESystem(object):
     """ Class for storing information about ODE system.
 
+        Demonstrates rendering of the information to various templates.
     """
     def __init__(self, mid, pids, p, xids, x0, yids, y, dxdt, zids, z):
         """ Storing information about ODE system.
@@ -32,11 +31,11 @@ class ODESystem(object):
         :param p: parameter {pid: value}
         :param xids: state ids (list)
         :param x0: initial state conditions {xid: value}
-        :param yids:
-        :param y:
+        :param yids: intermediate variables ids
+        :param y: intermediate variables used in odes {yid: formula}
         :param dxdt: ordinary differential equations dxd
-        :param zids:
-        :param z:
+        :param zids: post-processing variables ids
+        :param z: post-processing variables {zid: formula}
         """
         self.mid = mid
         self.pids = pids
@@ -69,6 +68,16 @@ class ODESystem(object):
         with open(r_file, "w") as f:
             f.write(content)
 
+    def to_HTML(self, html_file):
+        """ Write ODEs to HTML report.
+
+        :param html_file:
+        :return:
+        """
+        content = self._render_template(template="template.html", index_offset=1)
+        with open(html_file, "w") as f:
+            f.write(content)
+
     def _render_template(self, template='template.py', index_offset=0):
         """ Renders given language template.
 
@@ -83,7 +92,6 @@ class ODESystem(object):
 
         # load the template
         template = env.get_template(template)
-
 
         # context for rendering the template
         c = {
@@ -147,6 +155,11 @@ if __name__ == "__main__":
     # Render templates
     py_file = os.path.join('.', 'results', "{}.py".format(mid))
     r_file = os.path.join('.', 'results', "{}.R".format(mid))
+    html_file = os.path.join('.', 'results', "{}.html".format(mid))
 
+    print('to_python')
     odes.to_python(py_file)
+    print('to_R')
     odes.to_R(r_file)
+    print('to_html')
+    odes.to_HTML(html_file)
