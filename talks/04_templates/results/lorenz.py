@@ -35,6 +35,11 @@ p = np.array([
 
 def f_dxdt(x, t, p):
     """ ODE system """
+    _x = x
+    x = _x[0]  # [0] x
+    y = _x[1]  # [1] y
+    z = _x[2]  # [2] z
+
     r = 45.92      # [0] r
     b = 4.0      # [1] b
     sigma = 16.0      # [2] sigma
@@ -42,9 +47,9 @@ def f_dxdt(x, t, p):
 
     # ode
     return [
-        sigma * (x[1] - x[0]),       # [0] x
-        x[0] * (r - x[2]) - x[1],       # [1] y
-        x[0] * x[1] - b * x[2],       # [2] z
+        sigma * (y - x),       # [0] x
+        x * (r - z) - y,       # [1] y
+        x * y - b * z,       # [2] z
     ]
 
 

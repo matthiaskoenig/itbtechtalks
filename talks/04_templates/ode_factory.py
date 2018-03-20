@@ -124,9 +124,9 @@ if __name__ == "__main__":
     yids = []
     y = {}
     dxdt = {
-        'x': "sigma * (x[1] - x[0])",
-        'y': "x[0] * (r - x[2]) - x[1]",
-        'z': "x[0] * x[1] - b * x[2]",
+        'x': "sigma * (y - x)",
+        'y': "x * (r - z) - y",
+        'z': "x * y - b * z",
     }
 
     zids = ['tot', 'xf', 'yf', 'zf']

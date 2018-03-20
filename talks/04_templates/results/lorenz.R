@@ -34,12 +34,21 @@ p = c(
 # -------------------
 f_dxdt <- function(t, x, p){
     # ODE system
+    x_ = x
+    x = x_[1]  # [1] x
+    y = x_[2]  # [2] y
+    z = x_[3]  # [3] z
+
+    r = 45.92      # [1] r
+    b = 4.0      # [2] b
+    sigma = 16.0      # [3] sigma
+
 
     # ode
     list(c(
-        dx = sigma * (x[1] - x[0]),
-        dy = x[0] * (r - x[2]) - x[1],
-        dz = x[0] * x[1] - b * x[2]
+        dx = sigma * (y - x),
+        dy = x * (r - z) - y,
+        dz = x * y - b * z
     ))
 }
 
@@ -64,9 +73,11 @@ f_z <- function(times, X, p){
     for (kx in seq(Nx)){
         Z[,(1+kx)] = X[,1+kx]
     }
-    for (kt in seq(Nt)){
-        y = f_y(t=times[kt], x=X[kt, 2:(Nx+1)], p=p)
-        Z[kt, (2+Nx):Nz] = y
+    if (Ny > 0){
+        for (kt in seq(Nt)){
+            y = f_y(t=times[kt], x=X[kt, 2:(Nx+1)], p=p)
+            Z[kt, (2+Nx):Nz] = y
+        }
     }
     colnames(Z) <- c ("time", xids, yids)
     Z

@@ -35,6 +35,11 @@ p = np.array([
 
 def f_dxdt(x, t, p):
     """ ODE system """
+    _x = x
+    {% for id in xids %}
+    {{id}} = _x[{{loop.index0}}]  # [{{ loop.index0 }}] {{ id }}
+    {% endfor %}
+
     {% for id in pids %}
     {{ id }} = {{ p[id] }}      # [{{ loop.index0 }}] {{ id }}
     {% endfor %}
