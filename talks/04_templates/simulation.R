@@ -20,7 +20,7 @@ X <- ode(y=x0, times=times, func=f_dxdt, parms=p)
 # Solution Matrix
 s = f_z(times, X, p)
 
-png(filename="./results/lorenz_desolve.png", width=1200, height=1200)
+# png(filename="./results/lorenz_desolve.png", width=1200, height=1200)
 # plot results
 par(mfrow = c(2, 2))
 plot(s[, 'time'], s[, 'x'], type="l", ylim=c(-40, 80),
@@ -43,5 +43,5 @@ plot(s[, 'y'], s[, 'z'], type="l",
      main="desolve (z ~ y)",
      xlab='value',
      ylab='value')
-dev.off()
+# dev.off()
 par(mfrow = c(1, 1))

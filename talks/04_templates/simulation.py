@@ -19,7 +19,7 @@ def example_scipy(model_id):
     ode = SourceFileLoader("module.name", py_file).load_module()
 
     # ----------------------
-    # APAP simulation
+    # Lorenz simulation
     # ----------------------
     # Simulation time
     T = np.arange(0, 20, 0.01)
