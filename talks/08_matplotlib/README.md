@@ -11,5 +11,5 @@ The necessary pip packages for the notebook are
 ```
 Start the notebook via
 ```
-jupyterlab
+jupyter lab
 ```
