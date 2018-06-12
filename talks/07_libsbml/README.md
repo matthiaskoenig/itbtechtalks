@@ -2,6 +2,7 @@
 ```
 cd ./talks/07_libsbml
 mkvirtualenv libsbml --python=python3
+(libsbml) pip install "pip<10"
 (libsbml) pip install -r requirements.txt
 ```
 The necessary pip packages for the notebook are
