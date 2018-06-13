@@ -1,4 +1,4 @@
-# ITB Lightning Tech Talks
+<h1><img src="./img/itblogo.gif" height="30"/> ITB Lightning Tech Talks</h1>
 <b><a href="https://orcid.org/0000-0003-1725-179X" title="https://orcid.org/0000-0003-1725-179X"><img src="./img/orcid.png" height="15"/></a> Matthias König</b>
 
 Short talks introducing current technology and libraries (python/R) useful for Theoretical & Computational Biology.
@@ -18,4 +18,4 @@ Short talks introducing current technology and libraries (python/R) useful for T
 bundle exec jekyll serve --incremental
 ```
 
-&copy; 2018 Matthias König
+&copy; 2018 [https://livermetabolism.com](Matthias König)
