@@ -4,18 +4,18 @@
 Short talks introducing current technology and libraries (python/R) useful for Theoretical & Computational Biology.
 
 ## Content
-* 01: [./talks/01_git](A quick introduction to version control with git)
-* 02: [./talks/02_virtualenv](Virtual environments in python)
-* 03: [./talks/03_jupyter](Jupyter notebooks)
-* 04: [./talks/04_templates](Template languages with jinja2)
-* 05: [./talks/05_pandas](Introduction to pandas)
-* 06: [./talks/06_requests](Accessing web services with requests)
-* 07: [./talks/07_libsbml](SBML and libsbml)
-* 08: [./talks/08_matplotlib](Plotting with matplotlib)
+* 01: [A quick introduction to version control with git](./talks/01_git)
+* 02: [Virtual environments in python](./talks/02_virtualenv)
+* 03: [Jupyter notebooks](./talks/03_jupyter)
+* 04: [Template languages with jinja2](./talks/04_templates)
+* 05: [Introduction to pandas](./talks/05_pandas)
+* 06: [Accessing web services with requests](./talks/06_requests)
+* 07: [SBML and libsbml](./talks/07_libsbml)
+* 08: [Plotting with matplotlib](./talks/08_matplotlib)
 
 ## Homepage
 ```
 bundle exec jekyll serve --incremental
 ```
 
-&copy; 2018 [https://livermetabolism.com](Matthias König)
+&copy; 2018 [Matthias König](https://livermetabolism.com)
