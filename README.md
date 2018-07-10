@@ -12,6 +12,7 @@ Short talks introducing current technology and libraries (python/R) useful for T
 * 06: [Accessing web services with requests](./talks/06_requests)
 * 07: [SBML and libsbml](./talks/07_libsbml)
 * 08: [Plotting with matplotlib](./talks/08_matplotlib)
+* 09: [Introduction to machine learning with TensorFlow](./talks/09_tensorflow)
 
 ## Homepage
 ```
