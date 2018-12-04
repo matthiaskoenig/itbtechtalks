@@ -13,6 +13,8 @@ Short talks introducing current technology and libraries (python/R) useful for T
 * 07: [SBML and libsbml](./talks/07_libsbml)
 * 08: [Plotting with matplotlib](./talks/08_matplotlib)
 * 09: [Introduction to machine learning with TensorFlow](./talks/09_tensorflow)
+* 10: [Computer Latency at Human Scale](./talks/10_latency)
+
 
 ## Homepage
 ```
