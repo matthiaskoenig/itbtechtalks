@@ -6,6 +6,7 @@ In computer architecture, Amdahl's law (or Amdahl's argument[1]) is a formula wh
 
 https://en.wikipedia.org/wiki/Amdahl%27s_law#/media/File:AmdahlsLaw.svg
 
+https://keyboardinterrupt.org/multiprocessing-using-python-3-7/
 
 
 ## Threads vs. Processes
@@ -97,6 +98,7 @@ The simplest way to spawn a second is to instantiate a Process object with a tar
 
 
 ## resources
+https://medium.com/@urban_institute/using-multiprocessing-to-make-python-code-faster-23ea5ef996ba
 https://docs.python.org/3.5/library/multiprocessing.html
 https://pymotw.com/3/multiprocessing/basics.html
 https://www.blog.pythonlibrary.org/2016/08/02/python-201-a-multiprocessing-tutorial/

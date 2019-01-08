@@ -21,4 +21,4 @@ Short talks introducing current technology and libraries (python/R) useful for T
 bundle exec jekyll serve --incremental
 ```
 
-&copy; 2018 [Matthias König](https://livermetabolism.com)
+&copy; 2018-2019 [Matthias König](https://livermetabolism.com)
