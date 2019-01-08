@@ -16,5 +16,5 @@ jupyter lab
 
 Example notebook
 ```
-multiprocessing.ipynb
+(multiprocessing) jupyter lab 11_multiprocessing.ipynb
 ```

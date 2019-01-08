@@ -14,6 +14,7 @@ Short talks introducing current technology and libraries (python/R) useful for T
 * 08: [Plotting with matplotlib](./talks/08_matplotlib)
 * 09: [Introduction to machine learning with TensorFlow](./talks/09_tensorflow)
 * 10: [Computer Latency at Human Scale](./talks/10_latency)
+* 11: [Multiprocessing](./talks/11_multiprocessing)
 
 
 ## Homepage
