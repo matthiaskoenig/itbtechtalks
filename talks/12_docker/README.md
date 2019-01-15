@@ -16,21 +16,13 @@ docker info
 ## Help commands
 ```
 docker
-docker container --help
-```
-
-## Cleanup
-Delete all containers
-```
-docker rm $(docker ps -a -q)
-```
-Delete all images
-```
-docker rmi $(docker images -q)
+docker image --help
+docker image build --help
 ```
 
 ## Test docker installation
-Testing the installation via running the simple Docker image `hello-world`
+Testing the installation via running the simple Docker image `hello-world`.
+Available from the docker hub (registry) at https://hub.docker.com/_/hello-world .
 ```
 docker container run hello-world
 ```
@@ -54,7 +46,7 @@ These portable images are defined by something called a `Dockerfile`.
 ### Build the image
 ```
 cd flask-example
-docker build --tag=friendlyhello .
+docker build --tag=flaskapp .
 ```
 ### Check the built image
 ```bash
@@ -64,7 +56,7 @@ docker image ls
 ### Run the app
 Run the app, mapping your machine’s port 4000 to the container’s published port 80 using `-p`:
 ```bash
-docker run -p 4000:80 friendlyhello
+docker run -p 4000:80 flaskapp
 ```
 Web application running on http://localhost:4000.
 ```bash
