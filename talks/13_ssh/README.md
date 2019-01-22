@@ -47,7 +47,7 @@ ssh mkoenig@172.30.10.12
 
 ## SSH config file
 SSH allows to define generic SSH config & aliases via `.ssh/config`.
-```
+```bash
 Host itbgate
      User koenig
      Hostname gate.biologie.hu-berlin.de
@@ -64,7 +64,7 @@ ssh-keygen -t rsa -b 4096 -f itb
 # store in SSH agent
 man ssh-add
 ssh-add itb
-#
+# add the public key to the remote server
 man ssh-copy-id
 ssh-copy-id -i itb.pub itbgate
 ```
@@ -83,24 +83,52 @@ ssh itbgate
 ssh-copy-id -i itb.pub itbgate
 ```
 
-The SSH agent
+# Executing commands via SSH
+Executing command on remote computer. One can add commands directly at the end of the SSH command.
+For instance display your files before running a scp command.
+```
+ssh itbgate ls
+```
+Multiple commands can be separated via `;`:
+```
+ssh itbgate ls; pwd
+```
+If commands require an interactive shell it can be enabled with the `-t` parameter
+```
+ssh itbgate top
+ssh -t itbgate top
+```
 
-# Executing command via SSH
-executing command on remote computer
-
-
-
-
+A local script can be executed against a remote machine via a simple `stdin` redirection.
+```bash
+# list contents
+ls
+# print working directory
+pwd
+# print hostname
+hostname
+```
+Run the script
+```
+cat script.sh
+ssh itbgate < scripts.sh
+```
 
 # SSH tunnels and ProxyCommand
 Tunneling through SSH tunnels (jumping over nodes)
 ```
-
+Host itbprime1
+     User mkoenig
+     Hostname 172.30.10.12
+     ProxyCommand ssh -W %h:%p itbgate   
 ```
 
 # X-forwarding
 Using graphical programs from remote computer.
+On the client side, the `-X` (capital X) option to ssh enables X11 forwarding. 
+You can make this the default (for all connections or for a specific conection) with `ForwardX11 yes` in `~/.ssh/config`.
 
+ssh -X itbdesktop gedit 
 
 # Accessing your public github key
 Simple setup of virtual machines and remote servers for SSH access
@@ -108,19 +136,19 @@ Simple setup of virtual machines and remote servers for SSH access
 curl https://github.com/matthiaskoenig.keys >> $HOME/.ssh/authorized_keys
 ```
 
-
 ## Tools working on top of `scp`
+Large ecosystem of tools and workflows on top of SSH. Examples are `scp`, `rsync` or `ansible` (configuration tool). To seamlessly work with these tools one must setup SSH correctly.
+
 # `scp` - copying files
 scp copies files between hosts on a network.  It uses ssh(1) for data transfer, and uses the same authentication and provides the same security as ssh(1).  scp will ask for passwords or passphrases if they are needed for authentication.
 
 Directly works via `ssh`, so all `config` settings and key pairs from SSH can be used directly with scp.
 ```
 man scp
-
 ```
 
+# `rsync` - easy way to synchronize folders between clients
 
-Tools on top of SSH (scp, rsync, ...)
 
 
 
