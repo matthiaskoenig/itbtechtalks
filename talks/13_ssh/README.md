@@ -114,7 +114,7 @@ ssh itbgate
 ssh-copy-id -i itb.pub itbgate
 ```
 
-# Executing commands via SSH
+## Executing commands via SSH
 Executing command on remote computer. One can add commands directly at the end of the SSH command.
 For instance display your files before running a scp command.
 ```
@@ -145,7 +145,7 @@ cat script.sh
 ssh itbgate < scripts.sh
 ```
 
-# SSH tunnels and ProxyCommand
+## SSH tunnels and ProxyCommand
 Tunneling through SSH tunnels (jumping over nodes)
 ```
 Host itbprime1
@@ -154,7 +154,7 @@ Host itbprime1
      ProxyCommand ssh -W %h:%p itbgate   
 ```
 
-# X-forwarding
+## X-forwarding
 Using graphical programs from remote computer.
 On the client side, the `-X` (capital X) option to ssh enables X11 forwarding. 
 You can make this the default (for all connections or for a specific conection) with `ForwardX11 yes` in `~/.ssh/config`.
@@ -162,7 +162,7 @@ You can make this the default (for all connections or for a specific conection) 
 ssh -X itbdesktop gedit 
 ```
 
-# Accessing your public github key
+## Accessing your public github key
 Simple setup of virtual machines and remote servers for SSH access
 ```
 curl https://github.com/matthiaskoenig.keys >> $HOME/.ssh/authorized_keys
@@ -171,7 +171,7 @@ curl https://github.com/matthiaskoenig.keys >> $HOME/.ssh/authorized_keys
 ## Tools working on top of `scp`
 Large ecosystem of tools and workflows on top of SSH. Examples are `scp`, `rsync` or `ansible` (configuration tool). To seamlessly work with these tools one must setup SSH correctly.
 
-# `scp` - copying files
+### `scp` - copying files
 scp copies files between hosts on a network.  It uses ssh(1) for data transfer, and uses the same authentication and provides the same security as ssh(1).  scp will ask for passwords or passphrases if they are needed for authentication.
 
 Directly works via `ssh`, so all `config` settings and key pairs from SSH can be used directly with scp.
@@ -181,9 +181,18 @@ cat > testfile
 scp testfile itbgate:testfile
 ```
 
-# `rsync` - easy way to synchronize folders between clients
+### `rsync` - easy way to synchronize folders between clients
 rsync - a fast, versatile, remote (and local) file-copying tool
 
+## Reverse SSH tunnels
+`-R` flag
+You can share your local file system with a remote location (it is basically SSH reverse).
 
+## Piping data over SSH
+Unix stream piping is one of the most powerful and widely-used techniques in everyday work with *nix systems. It allows you to transform data received on stdin and output the result to stdout, chaining a series of commands together. This simple approach allows for very powerful transformations and the speedup of many everyday tasks.
 
+One common task is the copying of large file sets between servers. This can be done in many ways, perhaps using scp with the recursive flag, rsync or netcat - but I want to show you how to do this using data pipes.
+```
+tar -cz /var/www/ | ssh root@10.7.1.10 'cat -> ./www.tar.gz'
+```
 
