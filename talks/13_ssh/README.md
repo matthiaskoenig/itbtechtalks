@@ -10,37 +10,68 @@
 
 ## Installation
 ### Windows
+Multiple clients exists, e.g., 
+https://putty.org/
+PuTTY is an SSH and telnet client, developed originally by Simon Tatham for the Windows platform.
 
+### Linux & Mac 
+Part of most installations. Otherwise simple installation via respective package manager.
+```
+sudo apt-get install openssh-client
+```
 
-
-Linux 
+## Is a SSH server running on a given port?
+To test if an SSH server is running at a given IP or domain name we can use telnet to access port `22` (standard port of SSH). 
+```
+telnet gate.biologie.hu-berlin.de 22
+```
 
 ## Information on SSH
 The `man` files provide great information on the `ssh` and `scp` command.
 ```
 man ssh
-man ss
-
+man scp
+```
 
 ## Access to your itb files
 Only information needed is the IP address (or DNS name of computer in network) of your computer.
+This can be found easily via
 ```
 ifconfig -a
 ```
+or similar command on mac and windows.
 
-First one jumps on the itbgate computer
+In a first step we will access the `itbgate` computer. This is your gateway to the ITB computers. If you are not within the Humboldt network you have to use the humboldt VPN (via your email and password).
+
 ```bash
 # ssh on itbgate
 ssh <itbusername>@gate.biologie.hu-berlin.de
 ssh koenig@gate.biologie.hu-berlin.de
 ```
-and than on the machine you want access to
+Once we are on the gate computer we can already see our files (shared directories).
+```
+ls
+```
+In a second step we jump to the final computer, in this case my desktop computer 
+in Inv110.
 ```
 ssh <localusername>@<IP>
 ssh mkoenig@172.30.10.12
 ```
 
-## SSH files in `.ssh`
+## Debugging
+If there are `ssh` issues most of the time
+- your permissions on the files are wrong!
+- you try to do something which is forbidden
+- the port is not accessible, SSH server not running, or SSH server is very strict (only connections from certain subnets, ... see above forbidden).
+
+Helpful information is available via the `-v` flag
+```
+ssh -v koenig@gate.biologie.hu-berlin.de
+```
+
+## SSH files in `$HOME/.ssh`
+SSH has a few key files which are all located in the `$HOME/.ssh` directory:
 - `known_hosts`: remote hosts which are known via their fingerprint
 - `authorized_keys`: public keys which have access (via the corresponding private key)
 - `id_rsa` and `id_rsa.pub`: private and public key pair. The public key is distributed to the `authorized_keys` file one wants to have access to 
@@ -127,8 +158,9 @@ Host itbprime1
 Using graphical programs from remote computer.
 On the client side, the `-X` (capital X) option to ssh enables X11 forwarding. 
 You can make this the default (for all connections or for a specific conection) with `ForwardX11 yes` in `~/.ssh/config`.
-
+```
 ssh -X itbdesktop gedit 
+```
 
 # Accessing your public github key
 Simple setup of virtual machines and remote servers for SSH access
@@ -145,9 +177,12 @@ scp copies files between hosts on a network.  It uses ssh(1) for data transfer, 
 Directly works via `ssh`, so all `config` settings and key pairs from SSH can be used directly with scp.
 ```
 man scp
+cat > testfile
+scp testfile itbgate:testfile
 ```
 
 # `rsync` - easy way to synchronize folders between clients
+rsync - a fast, versatile, remote (and local) file-copying tool
 
 
 
