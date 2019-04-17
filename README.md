@@ -16,6 +16,8 @@ Short talks introducing current technology and libraries (python/R) useful for T
 * 10: [Computer Latency at Human Scale](./talks/10_latency)
 * 11: [Multiprocessing](./talks/11_multiprocessing)
 * 12: [What is docker?](./talks/12_docker)
+* 13: [SSH - Tips and tricks](./talks/13_ssh)
+* 14: [The truth about t-SNE](./talks/14_tsne)
 
 ## Homepage
 ```
