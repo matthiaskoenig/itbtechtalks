@@ -1,0 +1,6 @@
+streamlit>=0.87
+
+numpy
+pandas
+sbmlsim
+
