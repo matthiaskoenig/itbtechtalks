@@ -4,10 +4,10 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-# add text
+# # add text
 st.title("My first app")
 st.markdown("Some more text in my app $1 + 2 \geq \gamma$. "
-            "Make things **bold** or *italics*.")
+             "Make things **bold** or *italics*.")
 
 # write a data frame
 st.write("Here's our first attempt at using data to create a table:")
@@ -17,20 +17,20 @@ df = pd.DataFrame({
 })
 st.write(df)
 
-# use magic
-"""
-# My first app
-Here's our first attempt at using data to create a table:
-"""
-
-df = pd.DataFrame({
-  'first column': [1, 2, 3, 4],
-  'second column': [10, 20, 30, 40]
-})
-
-df
-
-# draw charts and maps
+# # use magic
+# """
+# # My first app
+# Here's our first attempt at using data to create a table:
+# """
+#
+# df = pd.DataFrame({
+#   'first column': [1, 2, 3, 4],
+#   'second column': [10, 20, 30, 40]
+# })
+#
+# df
+#
+# # draw charts and maps
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
      columns=['a', 'b', 'c'])
@@ -56,6 +56,8 @@ option = st.sidebar.selectbox(
 
 'You selected: ', option
 
-# lay out your app
-# For a cleaner look, you can move your widgets into a sidebar.
-# option = st.sidebar.selectbox
+
+#
+# # lay out your app
+# # For a cleaner look, you can move your widgets into a sidebar.
+# # option = st.sidebar.selectbox

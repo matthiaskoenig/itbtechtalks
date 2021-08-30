@@ -32,6 +32,7 @@ bundle exec jekyll serve --incremental
   https://medium.com/@dasirra/using-streamlit-nginx-docker-to-build-and-put-in-production-dashboards-in-aws-lightsail-781dab8f2836
 - seaborn
 - neo4j  
+- altair  
 - holoviz/panel; https://holoviz.org/
 - networkx, https://networkx.org/documentation/stable/tutorial.html
 - nlopt, https://github.com/stevengj/nlopt
