@@ -3,6 +3,14 @@
 Short talks introducing current technology and libraries (python/R) useful for Theoretical & Computational Biology.
 This series is organized as part of the Seminar of the Institute of Theoretical Biology (ITB) at the Humboldt-University Berlin.
 
+## Latest presentation & video
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQMlOV4Mb7uWqQLwvPC_o_xJwITfAsC-ho8kGQ0TZVPkZENnfComE3eyg5O7gCp6qIn9hU5KzzScJ1w/pub?start=false&loop=false&delayms=3000" target="_blank">
+    <img src="./talks/16_xarray/presentation.png" height="200" alt="presentation"/>
+</a> 
+<a href="https://youtu.be/RQL4M52oRZU" target="_blank">
+    <img src="./talks/16_xarray/video.png" height="200" alt="video"/>
+</a>
+
 ## Talks
 - 16: [xarray - N-D labeled arrays and datasets in Python](./talks/16_xarray)
 - 15: [Streamlit - fastest way to build data apps](./talks/15_streamlit)
