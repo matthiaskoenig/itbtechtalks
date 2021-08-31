@@ -18,6 +18,8 @@ Short talks introducing current technology and libraries (python/R) useful for T
 * 12: [What is docker?](./talks/12_docker)
 * 13: [SSH - Tips and tricks](./talks/13_ssh)
 * 14: [The truth about t-SNE](./talks/14_tsne)
+* 15: [Streamlit - fastest way to build data apps](./talks/15_streamlit)
+* 16: [Streamlit - fastest way to build data apps](./talks/15_streamlit)
 
 ## Homepage
 ```

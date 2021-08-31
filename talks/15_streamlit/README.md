@@ -1,5 +1,15 @@
 # streamlit
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQrZkJrlD4MNEkP44AFC8UQ8WonqTsdYArqyhVRTfBgH8RTutZ1ghzgjZ593lQUYJPQ6_f9-6JqkhK0/embed?start=false&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+The presentation is available [here](https://docs.google.com/presentation/d/1kL7v6Wc0X7F4zzqL7w5VB5WKkQ93Aj313UJQ9a9KtJc/edit?usp=sharing).
+
+Most of the examples follow the tutorials available from https://docs.streamlit.io/en/stable/ .
+Here we present two Streamlit applications:
+- [`first_app.py`](./first_app.py) corresponding to the Streamlit tutorial
+- [`interactive_icg_model.py`](./interactive_icg_model.py) demonstrating Streamlit with a physiological based pharamacokinetics model of ICG (ODE model)
+
 ## Setup environment
+To run the example applications install the requirements 
 ```
 cd ./talks/15_streamlit
 mkvirtualenv streamlit --python=python3
@@ -7,9 +17,8 @@ mkvirtualenv streamlit --python=python3
 ```
 
 ## Hello world example
-Install Streamlit using PIP and run the `hello world` app:
+To run the Streamlit `hello world` use:
 ```
-pip install streamlit
 streamlit hello
 ``` 
 
@@ -19,7 +28,6 @@ streamlit hello
 ```
    streamlit run [filename]
 ```
-3. When you’re ready, click `Deploy` from the Streamlit menu to share your app with the world!
 
 ### Add text
 Streamlit has a number of ways to add text to your app.
@@ -77,4 +85,9 @@ chart_data = pd.DataFrame(
 st.line_chart(chart_data)
 ```
 
-### Add interactivity with widgets
+## Interactive ICG app
+The second example is an interactive ODE model: [`interactive_icg_model.py`](./interactive_icg_model.py).
+To start the Streamlit app use:
+```
+streamlit run interactive_icg_model.py
+```
