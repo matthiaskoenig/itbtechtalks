@@ -4,26 +4,21 @@
 Short talks introducing current technology and libraries (python/R) useful for Theoretical & Computational Biology.
 
 ## Content
-* 01: [A quick introduction to version control with git](./talks/01_git)
-* 02: [Virtual environments in python](./talks/02_virtualenv)
-* 03: [Jupyter notebooks](./talks/03_jupyter)
-* 04: [Template languages with jinja2](./talks/04_templates)
-* 05: [Introduction to pandas](./talks/05_pandas)
-* 06: [Accessing web services with requests](./talks/06_requests)
-* 07: [SBML and libsbml](./talks/07_libsbml)
-* 08: [Plotting with matplotlib](./talks/08_matplotlib)
-* 09: [Introduction to machine learning with TensorFlow](./talks/09_tensorflow)
-* 10: [Computer Latency at Human Scale](./talks/10_latency)
-* 11: [Multiprocessing](./talks/11_multiprocessing)
-* 12: [What is docker?](./talks/12_docker)
-* 13: [SSH - Tips and tricks](./talks/13_ssh)
-* 14: [The truth about t-SNE](./talks/14_tsne)
+* 16: [xarray - N-D labeled arrays and datasets in Python](./talks/16_xarray)
 * 15: [Streamlit - fastest way to build data apps](./talks/15_streamlit)
-* 16: [Streamlit - fastest way to build data apps](./talks/15_streamlit)
-
-## Homepage
-```
-bundle exec jekyll serve --incremental
-```
+* 14: [The truth about t-SNE](./talks/14_tsne)
+* 13: [SSH - Tips and tricks](./talks/13_ssh)
+* 12: [What is docker?](./talks/12_docker)
+* 11: [Multiprocessing](./talks/11_multiprocessing)
+* 10: [Computer Latency at Human Scale](./talks/10_latency)
+* 09: [Introduction to machine learning with TensorFlow](./talks/09_tensorflow)
+* 08: [Plotting with matplotlib](./talks/08_matplotlib)
+* 07: [SBML and libsbml](./talks/07_libsbml)
+* 06: [Accessing web services with requests](./talks/06_requests)
+* 05: [Introduction to pandas](./talks/05_pandas)
+* 04: [Template languages with jinja2](./talks/04_templates)
+* 03: [Jupyter notebooks](./talks/03_jupyter)
+* 02: [Virtual environments in python](./talks/02_virtualenv)  
+* 01: [A quick introduction to version control with git](./talks/01_git)
 
 &copy; 2018-2021 [Matthias König](https://livermetabolism.com)
