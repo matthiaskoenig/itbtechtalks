@@ -1,7 +1,7 @@
 # xarray - N-D labeled arrays and datasets in Python
-The presentation is available 
+The presentation is available here  
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vQMlOV4Mb7uWqQLwvPC_o_xJwITfAsC-ho8kGQ0TZVPkZENnfComE3eyg5O7gCp6qIn9hU5KzzScJ1w/pub?start=false&loop=false&delayms=3000" target="_blank">
-    <img src="./presentation.png" height="200" />
+    <img src="./presentation.png" />
 </a>
 
 ## Setup environment
@@ -19,7 +19,7 @@ Install the virtualenv as a kernel for the notebook
 
 ## Run example notebooks
 The examples consist of two tutorial notebooks
-- [`introduction.ipynb`](./introduction.ipnb)
+- [`introduction.ipynb`](./introduction.ipynb)
 - [`weather-data.ipynb`](./weather-data.ipynb) - example from xarray docs http://xarray.pydata.org/en/stable/examples/weather-data.html
 
 Start jupterlab with

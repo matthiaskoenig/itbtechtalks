@@ -1,6 +1,7 @@
-<h1><img src="./img/itblogo.gif" height="30"/> ITB Lightning Tech Talks</h1>
+# ITB Tech Talks
 
 Short talks introducing current technology and libraries (python/R) useful for Theoretical & Computational Biology.
+This series is organized as part of the Seminar of the Institute of Theoretical Biology (ITB) at the Humboldt-University Berlin.
 
 ## Talks
 - 16: [xarray - N-D labeled arrays and datasets in Python](./talks/16_xarray)
