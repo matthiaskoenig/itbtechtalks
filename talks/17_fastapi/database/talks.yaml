@@ -1,4 +1,8 @@
 talks:
+    - name: Mohsen Raoufi
+      date: 2021-09-07
+      title: "Speed-accuracy trade-off in spatial collective decision making"
+      slides:
     - name: Burt, Phillipp
       date: 2021-08-24
       title: "Data-driven modeling of T cell dynamics in acute and chronic inflammation"

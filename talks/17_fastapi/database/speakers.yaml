@@ -1,6 +1,5 @@
 speakers:
-
-    - name: Romanczuk, Pawel (PI)
+    - name: Mohsen Raoufi
       group: Collective Information Processing
       location: ITB-House4
       web:
@@ -32,6 +31,10 @@ speakers:
       group     : System Administration
       location  : ITB-House4
       web       : wiki/members/schuppner
+    - name: Romanczuk, Pawel (PI)
+      group: Collective Information Processing
+      location: ITB-House4
+      web:
     - name      : Wilkins, Adams
       group     : ITB
       location  : ITB-House4
