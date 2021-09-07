@@ -1,75 +1,25 @@
 """FastAPI example
 
-documentation features
-"""
-from pathlib import Path
-from typing import Optional, Dict, Any, List, Union
-from dataclasses import dataclass
-import yaml
-from rich import print
+Run with:
+    uvicorn itbmeeting:app --reload --port 4447
 
+API:
+    http://127.0.0.1:4447
+
+Interactive docs:
+    http://127.0.0.1:4447/docs
+    http://127.0.0.1:4447/redoc
+    http://127.0.0.1:4447/openapi.json
+
+Examples:
+    http://127.0.0.1:4447/talks_by_speaker/?search_string=K%C3%B6nig'
+"""
 import uvicorn
 
 from fastapi import FastAPI, Request, Response
 from fastapi import FastAPI
 
-
-# -------------------------------------------------------------------------------------
-# Data base/model
-# -------------------------------------------------------------------------------------
-from yaml import FullLoader
-
-
-@dataclass
-class Person:
-    name: str
-    group: str
-
-
-@dataclass
-class Talk:
-    name: str
-    date: str
-    title: str
-    slides: bool
-
-
-@dataclass
-class MeetingData:
-    speakers: Dict[int, Person]
-    alumnis: Dict[int, Person]
-    talks: Dict[str, Talk]
-
-
-def load_data() -> MeetingData:
-    """Load meeting data."""
-    db_path = Path(__file__).parent / "database"
-    data: Dict[str, Union[Person, Talk]] = {}
-
-    for key in ["speakers", "alumnis", "talks"]:
-        with open(db_path / f"{key}.yaml", "r") as f_yaml:
-            _data = yaml.load(f_yaml, Loader=FullLoader)[key]
-
-            # add ids for lookup
-            clean_data: Dict = {}
-            for k, item in enumerate(_data):
-                clean_data[k] = {
-                    "id": k,
-                    **item
-                }
-
-            data[key] = clean_data
-
-    return MeetingData(**data)
-
-
-MEETING_DATA = load_data()
-print(MEETING_DATA)
-
-# -------------------------------------------------------------------------------------
-# API
-# -------------------------------------------------------------------------------------
-
+from meeting_data import MEETING_DATA as DATA
 
 
 description = """
@@ -109,50 +59,69 @@ api = FastAPI(
 )
 
 
-@api.get("/speakers/", tags=["people"])
-def get_speakers() -> Response:
-    """Get speakers of the ITB meeting."""
-    return MEETING_DATA.speakers
-
-
-@api.get("/speakers/{speaker_id}", tags=["people"])
-def get_speaker(speaker_id: int) -> Response:
-    """Get speaker by id."""
-    return MEETING_DATA.speakers[speaker_id]
-
-
-@api.get("/alumnis/", tags=["people"])
-def get_alumnis() -> Response:
-    """Get alumnis of the ITB meeting."""
-    return MEETING_DATA.alumnis
-
-
-@api.get("/alumni/{alumni_id}", tags=["people"])
-def get_alumni(alumni_id: int) -> Response:
-    """Get alumni by id."""
-    return MEETING_DATA.alumnis[alumni_id]
-
-
+# --- Talks ---
 @api.get("/talks/", tags=["talks"])
 def get_talks() -> Response:
     """Get talks of the ITB meeting."""
-    return MEETING_DATA.talks
+    return [t.to_dict() for t in DATA.talks.values()]
 
 
 @api.get("/talks/{talk_id}", tags=["talks"])
-def get_alumni(talk_id: int) -> Response:
+def get_talk(talk_id: int) -> Response:
     """Get talk by id."""
-    return MEETING_DATA.talks[talk_id]
+    talk = DATA.talks[talk_id]
+    if talk:
+        talk = talk.to_dict()
+    return talk
 
-# talk_search; person_search
+
+@api.get("/talks_by_speaker/", tags=["talks"])
+def search_talks_by_speaker(search: str):
+    """Get talk by speaker."""
+    talks = []
+    for talk in DATA.talks.values():
+        if search.lower() in talk.name.lower():
+            talks.append(talk)
+    return [t.to_dict() for t in talks]
+
+
+@api.get("/talks_by_group/", tags=["talks"])
+def search_talks_by_speaker(search: str):
+    """Get talk by group."""
+    talks = []
+    for talk in DATA.talks.values():
+        person = DATA.persons.get(talk.person)
+        if person and person.group:
+            if search.lower() in person.group.lower():
+                talks.append(talk)
+
+    return [t.to_dict() for t in talks]
+
+
+# --- People ---
+@api.get("/persons/", tags=["people"])
+def get_persons(alumni: bool = None) -> Response:
+    """Get persons of the ITB meeting.
+    The alumni parameter allows to filter for alumnis.
+    """
+    return [p.to_dict() for p in DATA.persons]
+
+
+@api.get("/persons/{person_id}", tags=["people"])
+def get_person(person_id: int) -> Response:
+    """Get person by id."""
+    person = DATA.persons.get(person_id, None)
+    if person:
+        person = person.to_dict()
+    return person
 
 
 if __name__ == "__main__":
-    # shell command: uvicorn itbmeeting:app --reload --port 4446
+    # shell command: uvicorn itbmeeting:app --reload --port 4447
     uvicorn.run(
         "itbmeeting_api:api",
         host="localhost",
-        port=4446,
+        port=4447,
         log_level="info",
         reload=True,
     )

@@ -327,7 +327,6 @@ talks:
       date      : 2019-02-19
       title     : "In vivo and in vitro investigation of the circadian clock in human colorectal cancer"
       slides    :
-      web       :
     - name      : Upadhyay, Abhishek
       date      : 2019-02-12
       title     : "A degradation switch enables rhythm in a Neurospora clock model"
@@ -520,7 +519,6 @@ talks:
     - name      : Obermayer, Benedikt
       date      : 2018-01-09
       title     : "Global characterization of post-transcriptional gene regulation at the onset of neuronal differentiation"
-      group     : Bioinformatics Core Unit
       slides    :
 
     - name      : Uhlitz, Florian
@@ -551,7 +549,6 @@ talks:
       date      : 2017-11-07
       title     : "Collective Performance in Presence of a Predator: An inhomogeneous, local field."
       slides    :
-      abstract  : "From physical systems which undergo a contineous phase transition it is known that the susceptibility, the sensitivity of the system to external perturbations, diverges. Thus the assumption seems plausible that a predator which can be phrased as an inhomogeneous local field or perturbation has a harder job at coming close to agents of a collective if the collective, e.g. a swarm of fishes, is at the transition from an ordered to an unorderd phase. Extensive numerical simulations show that the phase transition does affect the performance, however; rather in an unexpected way."
 
     - name      : Faizi, Marjan
       date      : 2017-10-24
