@@ -1,0 +1,716 @@
+talks:
+    - name: Burt, Phillipp
+      date: 2021-08-24
+      title: "Data-driven modeling of T cell dynamics in acute and chronic inflammation"
+      slides:
+    - name: Contreras, Susana
+      date: 2021-06-22
+      title: "Simplifying complicated neuronal models"
+      slides:
+    - name: Kuokkanen, Paula
+      date: 2021-06-15
+      title: "Predicting click-elicited single auditory unit contributions to EEG in the barn owl"
+      slides:
+    - name: Thurley, Kevin (PI)
+      date: 2021-06-08
+      title: "Epigenetic auto-stabilization - evidence for a new network motif in the control of Th cell lineage identity."
+      slides:
+    - name: Schieferstein, Natalie
+      date: 2021-06-01
+      title: "Approximating transient dynamics of hippocampal ripple oscillations in an inhibitory network model"
+      slides:
+    - name: Poel, Winnie
+      date: 2021-05-25
+      title: TBA
+      slides:
+    - name: Pfeiffer, Paul
+      date: 2021-05-18
+      title: "Capacitance clamp - artificial capacitance in biological neurons"
+      slides:
+    - name: König, Matthias (PI)
+      date: 2021-05-03
+      title: "Physiologically based model of the indocyanine green based liver function tests"
+      slides:
+    - name: Steuer, Ralf (PI)
+      date: 2021-04-27
+      title: "Eating the Sun: the path from single cell growth to productive ecosystems"
+      slides:
+    - name: Gomez, Luis
+      date: 2021-04-20
+      title: "Information spread enhanced by criticality in high-responsive groups of fish"
+      slides:
+    - name: Weerdmeester, Liz
+      date: 2021-04-13
+      title: "Energy vs robustness: a trade-off?"
+      slides:
+    - name: Schmal, Christoph (PI)
+      date: 2021-04-06
+      title: "An Integrative Omics Approach Reveals Post-transcriptional Mechanisms Underlying Circadian Temperature Compensation"
+      slides:
+    - name: Hammerstein, Peter (PI)
+      date: 2021-03-30
+      title: "A striking 'pandemic'"
+      slides:
+    - name: Relógio, Angela (PI)
+      date: 2021-03-16
+      title: "Circadian cancer metabolism."
+      slides:
+    - name: Brunner, Patrick
+      date: 2021-03-09
+      title: "Spatial modeling of inflammation"
+      slides:
+    - name: Zhao, Yinong
+      date: 2021-03-02
+      title: "Self-organization of self-propelled particles with alignment -- Contagion process influenced by the spatial structure"
+      slides:
+    - name: Bluethgen, Nils (PI)
+      date: 2021-02-23
+      title: "Signalling and the organisation of the epithelium and epithelial tumours. Lessons learned from single cell studies."
+      slides:
+    - name: Peidli, Stefan
+      date: 2021-02-16
+      title: "Temporal Single Cell Analysis with RNA velocity"
+      slides:
+    - name: Kwon, Gino
+      date: 2021-02-09
+      title: "Dissecting the heterogeneity of single cell RNA expression."
+      slides:
+    - name: Malhan, Deeksha
+      date: 2021-02-02
+      title: "Bone healing: cellular and molecular insight"
+      slides:
+    - name: Del Olmo, Marta
+      date: 2021-01-26
+      title: "Nonlinear phenomena in models of the circadian clock"
+      slides:
+    - name: Fischer, Matthias
+      date: 2021-01-19
+      title: "Maintaining and losing homoeostasis in hierarchical tissues"
+      slides:
+    - name: Grzegorzewski, Jan
+      date: 2021-01-12
+      title: "PK-DB: A Pharmacokinetics Database for Individualized and Stratified Computational Modelling"
+      slides:
+    - name: Aboumanify, Ouda
+      date: 2020-12-15
+      title: "Circadian genes and sports performance"
+      slides:
+    - name: Klinger, Bertram
+      date: 2020-12-08
+      title: "Speed2"
+      slides:
+    - name: Schleimer, Jan-Hendrik
+      date: 2020-12-01
+      title: "Understanding excitability-switches in one dimension too much"
+      slides:
+    - name: Dorel, Mathurin
+      date: 2020-11-24
+      title: "Reverse engineering signalling networks in neuroblastoma cell lines"
+      slides:
+    - name: Behbood, Mahraz
+      date: 2020-11-17
+      title: "KCC2 cotransporter plays a role in balancing  potassium in the extracellular space of excitatory synapses"
+      slides:
+    - name: Herzel, Hanspeter (PI)
+      date: 2020-11-10
+      title: "GC content of the genome"
+      slides:
+    - name: Gross, Torsten
+      date: 2020-11-03
+      title: "Is robustness of MAPK signalling a result of integral feedback control?"
+      slides:
+    - name: Sell, Thomas
+      date: 2020-10-27
+      title: "CyTOF"
+      slides:
+    - name: Hesse, Janina
+      date: 2020-10-20
+      title: "Circadian genes and sports performance: Prediction of optimal training times"
+      slides:
+    - name: Wilkins, Adam
+      date: 2020-06-24
+      title: "In domesticating animals, what is the first step: getting reduced reactive aggression or reduced fear?"
+      slides:
+    - name: Ananthasubramaniam, Bharath
+      date: 2020-06-17
+      title: "Amplitude Effects Allow Short Jet Lags and Large Seasonal Phase Shifts in Minimal Clock Models"
+      slides:
+    - name: Basti, Alireza
+      date: 2020-06-09
+      title: "The role of circadian clock in colorectal cancer: insights from in vitro and in vivo approaches"
+      slides:
+    - name: Yalcin, Müge
+      date: 2020-06-02
+      title: "Meta-analysis of circadian rhythms in an in vitro model of colorectal cancer"
+      slides:
+    - name: Astaburuaga, Rosario
+      date: 2020-05-26
+      title: "Signaling pathways governing cell fate decisions upon radiation"
+      slides:
+    - name: Upadhyay, Abhishek
+      date: 2020-05-19
+      title: "Modelling multiple random phosphorylations in Neurospora clock is not rocket science!"
+      slides:
+    - name: Gustav, Geissler
+      date: 2020-05-23
+      title: "Systems Biology of Inflammation"
+      slides:
+    - name: Schuppner, Rike-Benjamin
+      date: 2020-02-25
+      title: "ITB IT infrastructure & frequently asked questions"
+      slides:
+    - name: Burt, Phillipp
+      date: 2020-02-18
+      title : "Data-driven modeling of T helper cell responses"
+      slides:
+    - name: D'Albis, Tiziano
+      date: 2020-02-11
+      title: "Recurrent amplification of grid-cell activity"
+      slides:
+    - name: Contreras, Susana
+      date: 2020-02-04
+      title: "Effects of the extracellular (potassium) cocktail on neuronal activity"
+      slides:
+    - name: Kuokkanen, Paula
+      date: 2020-01-28
+      title: "From Single Cells to Far-Field Potentials in the Auditory Brainstem"
+      slides:
+    - name: Thurley, Kevin (PI)
+      date: 2020-01-21
+      title: "Principles for circadian orchestration of metabolic pathways"
+      slides:
+    - name: Schieferstein, Natalie
+      date: 2020-01-14
+      title: "Mechanisms of ripple oscillations and their role in memory consolidation"
+      slides:
+    - name: Rose, Pia
+      date: 2020-01-07
+      title: "The influence of sodium channel parameters on the cardiac action potential"
+      slides:
+    - name: Poel, Winnie
+      date: 2019-12-17
+      title: ""
+      slides:
+    - name: Pfeiffer, Paul
+      date: 2019-12-10
+      title: "Capacitance clamp - artificial capacitance in biological neurons"
+      slides:
+    - name: König, Matthias (PI)
+      date: 2019-12-03
+      title: "A reproducible and extensible model of whole-body glucose metabolism - A Progress report"
+      slides:
+    - name: Steuer, Ralf (PI)
+      date: 2019-11-26
+      title:
+      slides:
+    - name: Raghavendra Gadagkar (PI)
+      date: 2019-11-19
+      title: "Direct Fitness Options for Workers in the Indian Paper Wasp Ropalidia marginata"
+      slides:
+    - name: Romanczuk, Pawel (PI)
+      date: 2019-11-12
+      title: ""
+      slides:
+    - name: Schmal, Christoph
+      date: 2019-11-05
+      title: "Circadian entrainment across seasons: lessons from a red bread mold"
+      slides:
+    - name: Reifenstein, Eric
+      date: 2019-10-15
+      title: "The benefit of phase precession for sequence learning"
+      slides:
+    - name : Meisig, Johannes
+      date: 2019-10-08
+      title: "Using Slam-seq to characterize RNA processing rates globally."
+      slides:
+    - name: Bluethgen, Nils (PI)
+      date: 2019-10-01
+      title: "Dissecting Colon Cancer, Cell By Cell"
+      slides:
+    - name: Relógio, Angela (PI)
+      date: 2019-09-24
+      title: "A role for the circadian clock in metastasis: insights from a zebrafish model."
+      slides:
+    - name      : Li, Yin
+      date      : 2019-09-17
+      title     : "The bidirectional interplay between the circadian clock and the TGFβ/SMAD4 pathway modulates metastasis and drug response in pancreatic cancer."
+      slides    :
+    - name      : Del Olmo, Marta
+      date      : 2019-09-10
+      title     : "Modelling Circadian Redox Oscillations"
+      slides    :
+    - name      : El-Athman, Rukeia
+      date      : 2019-09-03
+      title     : "A Landscape of Circadian and Ultradian Splicing Events in Mammalian Tissues"
+      slides    :
+    - name      : Grzegorzewski, Jan
+      date      : 2019-07-09
+      title     : "A Pharmacokinetics Database for Individualized and Stratified Computational Modelling"
+      slides    :
+
+    - name      : Klinger, Bertram
+      date      : 2019-07-02
+      title  : "Mass-spec methods for phospho-protein detection"
+      slides    :
+
+    - name      : Behbood, Mahraz
+      date      : 2019-06-25
+      title     : "Activity-Induced Changes in Ion Concentrations Switch Cellular Dynamics in Favor of the Brain's Rhythmic Activities (A Fast Slow Bifurcation Analysis)"
+      slides    :
+
+    - name      : Herzel, Hanspeter (PI)
+      date      : 2019-06-18
+      title     : "Nonlinear dynamics of the voice"
+      slides    :
+
+    - name      : Gross, Torsten
+      date      : 2019-06-04
+      title     : "Robust network inference using response logic"
+      slides    :
+    - name      : Clara Jongen
+      date      : 2019-05-28
+      title     : "Context specific role of airports in global disease dynamics"
+      slides    :
+    - name      : König, Matthias (PI)
+      date      : 2019-05-21
+      title     : "Reproducible research"
+      slides:
+    - name      : Sell, Thomas
+      date      : 2019-05-14
+      title     : "Signalling cell by cell with mass cytometry"
+      slides:
+
+    - name      : Benary, Manuela
+      date      : 2019-05-07
+      title     : "Precision oncology using big data – How to predict relevant targets and therapies?"
+      slides    :
+
+    - name      : Pett, Patrick
+      date      : 2019-04-30
+      title     : "Defense tissue specific circadian clock"
+      slides    :
+    - name      : Sojo, Víctor
+      date      : 2019-04-23
+      title     : "1+1=3: Membranes, proteins, and the intertwining branches of the Tree of Life"
+      slides    :
+
+    - name      : Lauterbach, Elvira & Winkelhöfer Karin
+      date      : 2019-04-16
+      title     : Security information and instructions
+      slides    :
+
+    - name      : Schreiber, Susanne (PI)
+      date      : 2019-04-02
+      title     : "Synchronization with a new type of spike"
+      slides    :
+    - name      : Carrillo-Bustamante, Paola
+      date      : 2019-03-24
+      title     : "How can we understand the transmission and evolution of malaria? Insights from an in-silico individual-based model"
+      slides    :
+    - name      : Ananthasubramaniam, Bharath
+      date      : 2019-03-12
+      title     : "Ultradian rhythms in the transcriptome of Neurospora crassa"
+      slides    : http://itb.biologie.hu-berlin.de/~bharath/
+    - name      : Astaburuaga, Rosario
+      date      : 2019-03-05
+      title     : "Mathematical modeling of lysosomal ion homeostasis"
+      slides    :
+    - name      : Uhlitz, Florian
+      date      : 2019-02-26
+      title     : "Single Cell RNA-Seq of Colorectal Cancer Organoids"
+      slides    :
+    - name      : Basti, Alireza
+      date      : 2019-02-19
+      title     : "In vivo and in vitro investigation of the circadian clock in human colorectal cancer"
+      slides    :
+      web       :
+    - name      : Upadhyay, Abhishek
+      date      : 2019-02-12
+      title     : "A degradation switch enables rhythm in a Neurospora clock model"
+      slides    :
+    - name      : Klamser, Pascal
+      date      : 2019-02-05
+      title     : "Uncommon Risk-Behavior Evolution Due to Size-Selective Harvesting in Zebrafish"
+      slides    :
+    - name      : Schuppner, Rike-Benjamin
+      date      : 2019-01-29
+      title     : "Frequently asked questions"
+      slides    : "https://itbgit.biologie.hu-berlin.de/schuppner/itb-infrastructure-2019/blob/master/ITB%20Meeting%202019.pdf"
+    - name      : Faizi, Marjan
+      date      : 2019-01-22
+      title     : "Modeling a self-adapting system of phototrophic growth"
+      slides    :
+    - name      : D'Albis, Tiziano
+      date      : 2019-01-15
+      title     : "The origin of grid-cell patterns"
+      slides    :
+    - name      : Schieferstein, Natalie
+      date      : 2019-01-08
+      title     : "Mechanisms of phase precession in the hippocampal formation"
+      slides    :
+    - name      : Genov, Nikolai
+      date      : 2018-12-11
+      title     : "Time-dependent Isoform Expression Changes"
+      slides    :
+    - name      : Kuokkanen, Paula
+      date      : 2018-12-04
+      title     : "From single cells to extracellular field potentials and EEG"
+      slides    :
+    - name      : Burt, Phillipp
+      date      : 2018-11-27
+      title     : "Response-time modeling of T helper cell differentiation"
+      slides    :
+    - name      : Thurley, Kevin (PI)
+      date      : 2018-11-20
+      title     : "Modeling cell-cell communication dynamics in inflammatory responses"
+      slides:
+    - name      : Contreras, Susana
+      date      : 2018-11-13
+      title     : "An activity-induced transition in single-cell spiking dynamics"
+      slides    :
+    - name      : Rose, Pia
+      date      : 2018-11-06
+      title     : "Neurobiology without neurons"
+      slides    :
+    - name      : Romanczuk, Pawel (PI)
+      date      : 2018-10-30
+      title     : "Less is more - Limited attention facilitates collective migration in complex environments"
+      slides:
+    - name      : Pfeiffer, Paul
+      date      : 2018-10-23
+      title     : "Short term memory - Bistable neurons and reverberatory networks"
+      slides    :
+    - name      : König, Matthias (PI)
+      date      : 2018-10-16
+      title     : "Modelling liver function tests - LiMAx"
+      slides    :
+    - name      : Steuer, Ralf (PI)
+      date      : 2018-10-09
+      title     : "Modelling Phototrophic Growth"
+      slides    :
+    - name      : Carlos Aguilar (PI)
+      date      : 2018-10-02
+      title     : "Mapping the fungal web: Ecosystem functions to inspire human-made networks"
+      slides    :
+    - name      : Schmal, Christoph
+      date      : 2018-09-18
+      title     : "Dissociation of Intracellular Feedback Loops in the Mammalian Circadian Clock"
+      slides    :
+    - name      : Rydenfelt, Mattias
+      date      : 2018-09-11
+      title     :
+      slides    :
+    - name      : Hammerstein, Peter (PI)
+      date      : 2018-07-17
+      title     : "Celebrating the end of the semester with a look at Australian outback adventures"
+      slides    :
+    - name      : Winkelhöfer, Karin
+      date      : 2018-07-10
+      title     : "Berlin waste water management"
+      slides    :
+
+    - name      : Reifenstein, Eric
+      date      : 2018-07-03
+      title     : "Neuronal mechanisms of sequence learning"
+      slides    :
+
+    - name      : Genov, Nikolai
+      date      : 2018-06-26
+      title     : ""
+      slides    :
+
+    - name      : Evangelista, Roberta
+      date      : 2018-06-19
+      title     : "A 3-populations spiking model for the generation of hippocampal sharp wave-ripple oscillations"
+      slides    :
+
+    - name      : Meisig, Johannes
+      date      : 2018-06-12
+      title     : "Reconstructing gene regulatory networks in stem cells"
+      slides    :
+
+    - name      : Bluethgen, Nils (PI)
+      date      : 2018-06-05
+      title     : "Colon cancer - cell by cell"
+      slides    :
+
+    - name      : Li, Yin
+      date      : 2018-05-28
+      title     : "Characterization of circadian clock in mammalian cancer cells"
+      slides    :
+
+    - name      : Del Olmo, Marta
+      date      : 2018-05-21
+      title     : "Circadian redox system"
+      slides    :
+
+    - name      : El-Athman, Rukeia
+      date      : 2018-05-15
+      title     : "Analysis of the circadian splicosome"
+      slides    :
+
+    - name      : Grzegorzewski, Janek
+      date      : 2018-05-08
+      title     : "Virus Classification by Pattern Recognition applied on Peptide-Virus Interactions"
+      slides    :
+
+    - name      : Klinger, Bertram
+      date      : 2018-04-24
+      title     : "Studying oncogenic effects of RAS"
+      slides    :
+
+    - name      : Holzbecher, André
+      date      : 2018-04-17
+      title     : "Interneuronal gap junctions increase the synchrony of hippocampal ripple oscillations"
+      slides    :
+
+    - name      : Relógio, Angela (PI)
+      date      : 2018-03-27
+      title     : "A brief history of time"
+      slides    :
+    - name      : Herzel, Hanspeter (PI)
+      date      : 2018-03-20
+      title     : "The Choroid Plexus is an Important Circadian Clock Component"
+      slides    :
+
+    - name      : Schleimer, Jan-Hendrik
+      date      : 2018-03-13
+      title     : "It's: Monty Python's Flying Circuit"
+      slides    : "https://github.com/matthiaskoenig/itbmeeting/raw/master/slides/2018-03-13_schleimer.pdf"
+
+    - name      : Gross, Torsten
+      date      : 2018-03-06
+      title     : "A signalling network model predicts differential drug response of PIK3 mutants in a colon cancer cell line."
+      slides    : wiki/members/grosstor
+
+    - name      : König, Matthias (PI)
+      date      : 2018-02-27
+      title     : "A Quick Introduction to Version Control with Git"
+      slides    :
+
+    - name      : Clara Jongen
+      date      : 2018-02-20
+      title     : "Defining the scope: A context specific approach to identifying key airports during a pandemic."
+      slides    :
+
+    - name      : Sell, Thomas
+      date      : 2018-02-13
+      title     : "What is mass cytometry?"
+      slides    :
+
+    - name      : Witzel, Franziska
+      date      : 2018-01-30
+      title     : "Integral feedback control in Erk1/2 signalling"
+      slides    : 2018-01-30_witzel.pdf
+
+    - name      : Wilkins, Adams
+      date      : 2018-01-23
+      title     : ""
+      slides    :
+
+    - name      : Upadhyay, Abhishek
+      date      : 2018-01-16
+      title  : "Mathematical modeling of circadian clock in Neurospora crassa"
+      slides    :
+
+    - name      : Obermayer, Benedikt
+      date      : 2018-01-09
+      title     : "Global characterization of post-transcriptional gene regulation at the onset of neuronal differentiation"
+      group     : Bioinformatics Core Unit
+      slides    :
+
+    - name      : Uhlitz, Florian
+      date      : 2017-12-12
+      title     : "Single cell RNAseq of colorectal cancer"
+      slides    :
+    - name      : Basti, Alireza
+      date      : 2017-12-05
+      title     : "Gene editing via CRISPR/CAS9"
+      slides    :
+
+    - name      : Ünal, Evrim Besray
+      date      : 2017-11-28
+      title     : "Systems level expression correlation of Ras-like GTPase regulators and dysregulation in cancer."
+      slides    :
+
+    - name      : Ananthasubramaniam, Bharath
+      date      : 2017-11-21
+      title     : "BodyTime: A new diagnostic tool to assess the internal clock"
+      slides    :
+
+    - name      : Schuppner, Rike-Benjamin
+      date      : 2017-11-14
+      title     : "Technical Depth - Computers at the ITB"
+      slides    : "http://docs.itb.pri/TechnicalDepth/assets/player/KeynoteDHTMLPlayer.html#1"
+
+    - name      : Klamser, Pascal
+      date      : 2017-11-07
+      title     : "Collective Performance in Presence of a Predator: An inhomogeneous, local field."
+      slides    :
+      abstract  : "From physical systems which undergo a contineous phase transition it is known that the susceptibility, the sensitivity of the system to external perturbations, diverges. Thus the assumption seems plausible that a predator which can be phrased as an inhomogeneous local field or perturbation has a harder job at coming close to agents of a collective if the collective, e.g. a swarm of fishes, is at the transition from an ordered to an unorderd phase. Extensive numerical simulations show that the phase transition does affect the performance, however; rather in an unexpected way."
+
+    - name      : Faizi, Marjan
+      date      : 2017-10-24
+      title     : "Cyanobacterial growth with intrinsic feedback"
+      slides    :
+
+    - name      : Schieferstein, Natalie
+      date      : 2017-10-17
+      title     : "Mechanisms of phase precession in the hippocampal formation."
+      slides    :
+
+    - name      : D'Albis, Tiziano
+      date      : 2017-10-10
+      title     : "The origin of grid-cell patterns."
+      slides    :
+
+    - name      : Kuokkanen, Paula
+      date      : 2017-09-26
+      title     : "Decomposing the neurophonic in the NL of the Barn Owl."
+      slides    :
+
+    - name      : Contreras, Susana
+      date      : 2017-09-19
+      title     : "The wonderlust gene"
+      slides    :
+
+    - name      : Rose, Pia
+      date      : 2017-09-05
+      title     : "The influence of temperature on neuronal processing"
+      slides    :
+
+    - name      : Paul Pfeiffer
+      date      : 2017-07-18
+      title     : "Test-driven development"
+      slides    :
+
+    - name      : König, Matthias (PI)
+      date      : 2017-07-11
+      title     : "Computational modeling of liver function tests: Why you need more coffee when you smoke"
+      slides    :
+
+    - name      : Romanczuk, Pawel (PI)
+      date      : 2017-07-04
+      title     : "Collective Information Processing: How critical is it to be critical?"
+      slides    :
+
+    - name      : Karin Winklhöfer und Elvira Lauterbach
+      date      : 2017-06-27
+      title     : "ITB Symposium Organization Meeting"
+      slides    :
+    - name      : Steuer, Ralf (PI)
+      date      : 2017-06-20
+      title     : "The protein economy of growth: How to multiply yourself in seven steps."
+      slides    :
+    - name      : Schreiber, Susanne (PI)
+      date      : 2017-06-13
+      title     : "Cold-induced silencing of neuronal activity"
+      slides    :
+    - name      : Schmal, Christoph
+      date      : 2017-06-06
+      title     : "Mammalian circadian clock - Network of coupled oscillators"
+      slides    :
+    - name      : Rydenfelt, Mattias
+      date      : 2017-05-30
+      title     : "Drug sensitivity in cancer cell lines"
+      slides    :
+    - name      : Remme, Michiel
+      date      : 2017-05-23
+      title     : "The energetic cost of the brain"
+      slides    :
+    - name      : Schleimer, Jan-Hendrik
+      date      : 2017-05-16
+      title     : ""
+      slides    :
+    - name      : Abreu, Mónica
+      date      : 2017-05-09
+      title     : "Circadian analysis of the immune system"
+      slides    :
+    - name      : Reifenstein, Eric
+      date      : 2017-05-02
+      title     : "Sequence learning in rats and humans"
+      slides    :
+    - name      : Michalikova, Martina
+      date      : 2017-04-25
+      title     : "Post-journal utopia & how to move there faster."
+      slides    :
+    - name      : Genov, Nikolai
+      date      : 2017-04-04
+      title     : "Ultradian rhythms are evolutionary more conserved and play key roles in vital cellular functions."
+      slides    :
+    - name      : McColgan, Thomas
+      date      : 2017-03-28
+      title     : "Report of the GPU modeling retreat"
+      slides    :
+    - name      : Meisig, Johannes
+      date      : 2017-03-21
+      title     : "Modeling gene expression in spontaneous and perturbed differentiation"
+      slides    :
+    - name      : Evangelista, Roberta
+      date      : 2017-03-14
+      title     : "Bistable activation of CA3 interneurons can explain the generation of sharp wave-ripple oscillations"
+      slides    :
+    - name      : Kremkow, Jens
+      date      : 2017-03-07
+      title     : "What causes a cortical action potential, in vivo?"
+      slides    :
+    - name      : El-Athman, Rukeia
+      date      : 2017-02-28
+      title     : "Molecular Modelling of the Oligomeric Pore of the Tight Junction Protein Claudin-10b"
+      slides    :
+    - name      : Knoop, Henning
+      date      : 2017-02-14
+      title     : "Metabolic modeling of cyanobacteria"
+      slides    :
+    - name      : Klinger, Bertram
+      date      : 2017-02-07
+      title     : "The coffee ring effect"
+      slides    :
+    - name      : Holzbecher, André
+      date      : 2017-01-31
+      title     : "Memory - how we remember places, and why electrical synapses might play a role in that"
+      slides    :
+    - name      : Herzel, Hanspeter (PI)
+      date      : 2017-01-17
+      title     : "Modeling rhythms in cells, tissues, and organisms"
+      slides    : 2017-01-17_herzel.pdf
+    - name      : Hesse, Janina
+      date      : 2017-01-10
+      title     : "Trace your favorite drawings - getting around copy rights with inkscape"
+      slides    :
+    - name      : Gross, Torsten
+      date      : 2016-12-13
+      title     : "Finding patterns in perturbation data that reveal an underlying network"
+      slides    :
+    - name      : Fuhr, Luise
+      date      : 2016-11-29
+      title     : "Clock-genes and mitochondrial respiratory activity: Evidence of a reciprocal interplay."
+      slides    :
+    - name      : Bluethgen, Nils (PI)
+      date      : 2016-11-29
+      title     : "Noise in cancer"
+      slides    :
+    - name      : Baranov, Olga
+      date      : 2016-11-22
+      title     : "Real world networks"
+      slides    :
+    - name      : Donoso, José R.
+      date      : 2016-11-08
+      title     : 'Microvision in cyanobacteria (<a href="http://dx.doi.org/10.7554/eLife.12620">http://dx.doi.org/10.7554/eLife.12620</a>)'
+      slides    : 2016-11-08_donoso.pdf
+    - name      : Benary, Manuela
+      date      : 2016-11-01
+      title     : Project proposal
+      slides    :
+    - name      : Maier, Benjamin
+      date      : 2016-10-25
+      title     : "Flockworks: A class of dynamic network models for face-to-face interactions"
+      slides    :
+    - name      : Witzel, Franziska
+      date      : 2016-10-18
+      title     : Oncogene-induced Senescence
+      slides    : 2016-10-18_witzel.pdf
+    - name      : Bordyugov, Grischa
+      date      : 2016-10-11
+      title     : Programming with closures for fun and profit
+      slides    : "2016-10-11_bordyugov.pdf"

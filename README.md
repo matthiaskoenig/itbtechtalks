@@ -12,6 +12,7 @@ This series is organized as part of the Seminar of the Institute of Theoretical 
 </a>
 
 ## Talks
+- 17: [fastapi - High performance easy to learn web framework](./talks/17_fastapi)
 - 16: [xarray - N-D labeled arrays and datasets in Python](./talks/16_xarray)
 - 15: [Streamlit - fastest way to build data apps](./talks/15_streamlit)
 - 14: [The truth about t-SNE](./talks/14_tsne)

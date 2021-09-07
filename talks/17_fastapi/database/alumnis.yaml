@@ -1,0 +1,175 @@
+# Alumnis of ITB Meeting
+alumnis:
+    - name      : Westermark, Pål (PI)
+      group     : Systems Biology of Aging and the Circadian
+      web       : wiki/members/westerm
+    - name      : Wilmes, Katharina
+      group     : Computational Neurophysiology
+      web       : ~wilmes
+    - name      : Roemschied, Frederic
+      group     : Computational Neurophysiology
+      web       : wiki/members/frederic
+    - name      : Chenkov, Nikolay
+      group     : Theoretical Neuroscience
+      web       : wiki/members/nikolay
+    - name      : Westermark, Stefanie
+      group     : Metabolic Networks
+      web       :
+    - name      : Lehmann, Robert
+      group     : Celldeg.com
+      location  : ITB-House4
+      web       :
+    - name      : Ruegen, Marco
+      group     : Metabolic Networks
+      location  : ITB-House4
+      web       :
+    - name      : Lueck, Sarah
+      group     : Systems Biology of Aging and the Circadian Clock
+      location  : ITB-House4
+      web       :
+    - name      : Knoop, Henning
+      group     : Metabolic Networks
+      location  : ITB-House4
+      web       :
+    - name      : Thaben, Paul
+      group     : Systems Biology of Aging and the Circadian Clock
+      location  : ITB-House4
+      web       :
+    - name      : Bordyugov, Grischa
+      group     : Molecular and Cellular Evolution
+      location  : ITB-Inv43
+      web       : ~bordyugov
+    - name      : Zug, Roman
+      group     : Evolution of Organismic Systems
+      location  : ITB-Inv43
+      web       :
+    - name      : McColgan, Thomas
+      group     : Theoretical Neuroscience
+      location  : ITB-House4
+      web       :
+    - name      : Michalikova, Martina
+      group     : Theoretical Neuroscience
+      location  : ITB-Inv43
+      web       :
+    - name      : Fuhr, Luise
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       : wiki/members/fuhr/
+    - name      : Donoso, José R.
+      group     : Theoretical Neuroscience
+      location  : ITB-Inv43
+      web       : wiki/members/donoso
+    - name      : Hesse, Janina
+      group     : Computational Neurophysiology
+      location  : ITB-Inv43
+      web       : ~hesse
+    - name      : Ünal, Evrim Besray
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       :
+    - name      : Kremkow, Jens
+      group     : Theoretical Neuroscience
+      location  : ITB-Inv43
+      web       :
+    - name      : Abreu, Mónica
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+    - name      : Remme, Michiel
+      group     : Computational Neurophysiology and Neuroscience
+      location  : ITB-Inv43
+      web       :
+    - name      : Holzbecher, André
+      group     : Theoretical Neuroscience
+      location  : ITB-Inv110
+      web       :
+    - name      : Witzel, Franziska
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       : wiki/members/witzel
+    - name      : Pett, Patrick
+      group     : Molecular and Cellular Evolution
+      location  : ITB-House4
+      web       :
+    - name      : Baranov, Olga
+      group     : Research on Complex Systems
+      location  : ITB-Inv110
+      web       :
+    - name      : Clara Jongen
+      group     : Research on Complex Systems
+      location  : ITB-House4
+      web       :
+    - name      : Rydenfelt, Mattias
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-Inv110
+      web       :
+    - name      : Evangelista, Roberta
+      group     : Theoretical Neuroscience
+      location  : ITB-House4
+      web       :
+    - name      : Genov, Nikolai
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+    - name      : El-Athman, Rukeia
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       : wiki/members/elathman
+
+    - name      : Li, Yin
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+
+    - name      : Faizi, Marjan
+      group     : Metabolic Networks
+      location  : ITB-House4
+      web       :
+    - name      : Uhlitz, Florian
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       :
+    - name      : Benary, Manuela
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       : ~benary
+    - name      : Rose, Pia
+      group     : Computational Neurophysiology
+      location  : ITB-House4
+      web       :
+    - name      : Reifenstein, Eric
+      group     : Computational Neurophysiology
+      location  : ITB-House4
+      web       :
+    - name      : D'Albis, Tiziano
+      group     : Theoretical Neuroscience
+      location  : ITB-House4
+      web       :
+    - name      : Meisig, Johannes
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       :
+    - name      : Klamser, Pascal
+      group     : Collective Information Processing
+      location  : ITB-House4
+      web       :
+    - name      : Borek, Zuzanna
+      group     : Systems Biology of Inflammation
+      location  : ITB-House4
+      web       :
+    - name      : Gustav, Geissler
+      group     : Systems Biology of Inflammation
+      location  : ITB-House4
+      web       :
+    - name      : Upadhyay, Abhishek
+      group     : Molecular and Cellular Evolution
+      location  : ITB-House4
+      web       :
+    - name      : Dorel, Mathurin
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       : wiki/members/grosstor
+    - name      : Gross, Torsten
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       : wiki/members/grosstor

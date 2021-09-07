@@ -1,0 +1,199 @@
+speakers:
+
+    - name: Romanczuk, Pawel (PI)
+      group: Collective Information Processing
+      location: ITB-House4
+      web:
+    - name      : Yalcin, Müge
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+    - name      : Astaburuaga, Rosario
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       :
+    - name      : Basti, Alireza
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+    - name      : Schreiber, Susanne (PI)
+      group     : Computational Neurophysiology
+      location  : ITB-House4
+      web       :
+    - name      : Petković, Marina
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+    - name      : Ananthasubramaniam, Bharath (PI)
+      group     : Molecular and Cellular Evolution
+      location  : ITB-House4
+      web       : http://itb.biologie.hu-berlin.de/~bharath/
+    - name      : Schuppner, Rike-Benjamin
+      group     : System Administration
+      location  : ITB-House4
+      web       : wiki/members/schuppner
+    - name      : Wilkins, Adams
+      group     : ITB
+      location  : ITB-House4
+      web       :
+    - name: Fabian Pallasdies
+      group: Computational Neurophysiology
+      location: ITB-House4
+      web:
+    - name      : Brockmann, Dirk (PI)
+      group     : Research on Complex Systems
+      location  : ITB-House4
+      web       : http://rocs.hu-berlin.de/
+    - name: Nelson Niemeyer
+      group: Computational Neurophysiology
+      location: ITB-House4
+      web:
+    - name      : Hesse, Janina
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+    - name: Robert Gowers
+      group: Computational Neurophysiology
+      location: ITB-House4
+      web:
+    - name: Auer, Naomi
+      group: Theoretical Neurosciene
+      location: ITB-House4
+      web:
+    - name      : Sell, Thomas
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       :
+    - name      : Behbood, Mahraz
+      group     : Computational Neurophysiology
+      location  : ITB-House4
+      web       :
+
+    - name      : Schleimer, Jan-Hendrik
+      group     : Computational Neurophysiology
+      location  : ITB-House4
+      web       :
+    - name      : Grabe, Saskia
+      group     : Molecular and Cellular Evolution
+      location  : ITB-House4
+      web       :
+    - name: Cano, Gaspar
+      group: Theoretical Neurosciene
+      location: ITB-House4
+      web:
+    - name      : Klinger, Bertram
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       : wiki/members/klinger
+    - name: Krumm, Laura
+      group: Theoretical Neurosciene
+      location: ITB-House4
+      web:
+    - name      : Aboumanify, Ouda
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+    - name      : Usatikova, Eleonora
+      group     : Molecular and Cellular Evolution
+      location  : ITB-House4
+      web       :
+    - name      : Grzegorzewski, Jan
+      group     : Systems Biology of Liver
+      location  : ITB-House4
+      web       :
+    - name      : Fischer, Matthias
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       :
+    - name      : Del Olmo, Marta
+      group     : Molecular and Cellular Evolution
+      location  : ITB-House4
+      web       :
+    - name      : Malhan, Deeksha
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+    - name      : Kwon, Gino
+      group     : Systems Biology of Inflammation
+      location  : ITB-House4
+      web       :
+    - name      : Peidli, Stefan
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       :
+    - name      : Bluethgen, Nils (PI)
+      group     : Systems Biology of Molecular Networks
+      location  : ITB-House4
+      web       : http://www.sys-bio.net/
+    - name      : Zhao, Yinong
+      group     : Collective Information Processing
+      location  : ITB-House4
+      web       :
+    - name: Brunner, Patrick
+      group: Systems Biology of Inflammation
+      location: ITB-House4
+      web:
+    - name      : Relógio, Angela (PI)
+      group     : Systems Biology of Cancer
+      location  : ITB-House4
+      web       :
+    - name      : Winkelhöfer, Karin
+      group     : ITB
+      location  : ITB-House4
+      web       :
+    - name      : Hammerstein, Peter (PI)
+      group     : Evolution of Organismic Systems
+      location  : ITB-House4
+      web       :
+    - name      : Schmal, Christoph (PI)
+      group     : Computational Chronobiology
+      location  : ITB-House4
+      web       :
+    - name      : Weerdmeester, Liz
+      group     : Computational Neurophysiology
+      location  : ITB-House4
+      web       :
+    - name: Gomez, Luis
+      group: Collective Information Processing
+      location: ITB-House4
+      web:
+    - name      : Steuer, Ralf (PI)
+      group     : Metabolic Networks
+      location  : ITB-House4
+      web       :
+    - name      : König, Matthias (PI)
+      group     : Systems Biology of Liver
+      location  : ITB-House4
+      web       : https://livermetabolism.com
+    - name      : Pfeiffer, Paul
+      group     : Computational Neurophysiology
+      location  : ITB-House4
+      web       :
+    - name      : Poel, Winnie
+      group     : Collective Information Processing
+      location  : ITB-House4
+      web       :
+    - name      : Schieferstein, Natalie
+      group     : Theoretical Neuroscience
+      location  : ITB-House4
+      web       :
+    - name      : Thurley, Kevin (PI)
+      group     : Systems Biology of Inflammation
+      location  : ITB-House4
+      web       :
+    - name      : Kuokkanen, Paula
+      group     : Theoretical Neuroscience
+      location  : ITB-House4
+      web       :
+    - name      : Contreras, Susana
+      group     : Computational Neurophysiology
+      location  : ITB-House4
+      web       :
+    - name      : Burt, Phillipp
+      group     : Systems Biology of Inflammation
+      location  : ITB-House4
+      web       :
+    - name      : Schuppner, Rike-Benjamin
+      group     : System Administration
+      location  : ITB-House4
+      web       : wiki/members/schuppner
