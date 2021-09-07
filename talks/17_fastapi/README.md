@@ -1,10 +1,10 @@
 # fastapi - N-D labeled arrays and datasets in Python
 ## Presentation & video  
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vQMlOV4Mb7uWqQLwvPC_o_xJwITfAsC-ho8kGQ0TZVPkZENnfComE3eyg5O7gCp6qIn9hU5KzzScJ1w/pub?start=false&loop=false&delayms=3000" target="_blank">
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vSYF_7DNzWc2d2Bz5a9ersy05IAooEzBwh5xxztXNfm89Qw9BPUBmaAdYQ6jcAnGkg-DmI01-LJ2hMg/pub?start=false&loop=false&delayms=3000" target="_blank">
     <img src="./presentation.png" height="200"/>
 </a>
   
-<a href="https://youtu.be/RQL4M52oRZU" target="_blank">
+<a href="https://www.youtube.com/watch?v=UJdf5RCrvio" target="_blank">
     <img src="./video.png" height="200"/>
 </a>
 
@@ -19,8 +19,7 @@ mkvirtualenv fastapi --python=python3
 ## Run example APIs
 
 ```
-jupyter lab
+uvicorn example1:app --reload --port 4445
+uvicorn example2:app --reload --port 4446
+uvicorn itbmeeting_api:app --reload --port 4447
 ```
-and select the respective notebook.
-
-
