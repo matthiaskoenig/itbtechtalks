@@ -2,18 +2,18 @@
 
 Basic example from documentation: https://fastapi.tiangolo.com/
 Run with:
-    uvicorn example1:app --reload --port 4445
+    uvicorn example2:app --reload --port 4446
 
 API:
-    http://127.0.0.1:4445
+    http://127.0.0.1:4446
 
 Interactive docs:
-    http://127.0.0.1:4445/docs
-    http://127.0.0.1:4445/redoc
-    http://127.0.0.1:4445/openapi.json
+    http://127.0.0.1:4446/docs
+    http://127.0.0.1:4446/redoc
+    http://127.0.0.1:4446/openapi.json
 
 """
-
+import uvicorn
 from typing import Optional
 
 from fastapi import FastAPI

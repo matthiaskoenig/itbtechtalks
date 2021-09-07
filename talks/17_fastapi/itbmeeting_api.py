@@ -104,7 +104,7 @@ def get_persons(alumni: bool = None) -> Response:
     """Get persons of the ITB meeting.
     The alumni parameter allows to filter for alumnis.
     """
-    return [p.to_dict() for p in DATA.persons]
+    return [p.to_dict() for p in DATA.persons.values()]
 
 
 @api.get("/persons/{person_id}", tags=["people"])
