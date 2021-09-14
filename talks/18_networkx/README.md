@@ -1,5 +1,12 @@
 # NetworkX - Network analysis in python
 ## Presentation & video  
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vTj5LUc7ff340WAzh8DtZLuh-VWOosa9GhnZzeyjr5eflbdN0i7dPk7k7u-MDkVZ0iXDhq-7FT5Naoj/pub?start=false&loop=false&delayms=3000" target="_blank">
+    <img src="./presentation.png" height="200"/>
+</a>
+  
+<a href="https://www.youtube.com/watch?v=UJdf5RCrvio" target="_blank">
+    <img src="./video.png" height="200"/>
+</a>
 
 ## Setup environment
 To run the example applications install the requirements 
