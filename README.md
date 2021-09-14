@@ -25,25 +25,25 @@ This series is organized as part of the Seminar of the Institute of Theoretical 
 
 ## Latest presentation & video
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vTj5LUc7ff340WAzh8DtZLuh-VWOosa9GhnZzeyjr5eflbdN0i7dPk7k7u-MDkVZ0iXDhq-7FT5Naoj/pub?start=false&loop=false&delayms=3000" target="_blank">
-    <img src="./talks/presentation.png" height="100"/>
+    <img src="./talks/18_networkx/presentation.png" height="150"/>
 </a>
 <a href="https://youtu.be/1e_iIcIen9s" target="_blank">
-    <img src="./talks/video.png" height="100"/>
+    <img src="./talks/18_networkx/video.png" height="150"/>
 </a>
 <hr />
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vSYF_7DNzWc2d2Bz5a9ersy05IAooEzBwh5xxztXNfm89Qw9BPUBmaAdYQ6jcAnGkg-DmI01-LJ2hMg/pub?start=false&loop=false&delayms=3000" target="_blank">
-    <img src="./talks/presentation.png" height="100"/>
+    <img src="./talks/17_fastapi/presentation.png" height="150"/>
 </a>
-<hr />  
+<br />  
 <a href="https://www.youtube.com/watch?v=UJdf5RCrvio" target="_blank">
-    <img src="./talks/video.png" height="100"/>
+    <img src="./talks/17_fastapi/video.png" height="150"/>
 </a>
 <hr />
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vQMlOV4Mb7uWqQLwvPC_o_xJwITfAsC-ho8kGQ0TZVPkZENnfComE3eyg5O7gCp6qIn9hU5KzzScJ1w/pub?start=false&loop=false&delayms=3000" target="_blank">
-    <img src="./talks/16_xarray/presentation.png" height="100" alt="presentation"/>
+    <img src="./talks/16_xarray/presentation.png" height="150" alt="presentation"/>
 </a> 
 <a href="https://youtu.be/RQL4M52oRZU" target="_blank">
-    <img src="./talks/16_xarray/video.png" height="100" alt="video"/>
+    <img src="./talks/16_xarray/video.png" height="150" alt="video"/>
 </a>
 
 
