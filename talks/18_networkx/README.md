@@ -4,7 +4,7 @@
     <img src="./presentation.png" height="200"/>
 </a>
   
-<a href="https://www.youtube.com/watch?v=UJdf5RCrvio" target="_blank">
+<a href="https://youtu.be/1e_iIcIen9s" target="_blank">
     <img src="./video.png" height="200"/>
 </a>
 
