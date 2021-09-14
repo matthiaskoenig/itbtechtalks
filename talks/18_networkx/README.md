@@ -6,5 +6,17 @@ To run the example applications install the requirements
 ```
 cd ./talks/18_networkx
 mkvirtualenv networkx --python=python3
-(networks) pip install -r requirements.txt
+(networkx) pip install -r requirements.txt
+```
+For detailed installation instructions see
+https://networkx.org/documentation/stable/install.html
+
+Install the virtualenv as a kernel for the notebook
+```
+(networkx) ipython kernel install --user --name=networkx
+```
+
+## Run example notebook
+```
+jupyter lab
 ```

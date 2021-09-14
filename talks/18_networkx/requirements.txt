@@ -1,1 +1,8 @@
-networkx
+networkx>=2.6.3
+jupyterlab>=3.1.9
+numpy
+pygraphviz
+pydot
+pyyaml
+gdal
+lxml
