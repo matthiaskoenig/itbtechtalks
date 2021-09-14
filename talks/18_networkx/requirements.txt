@@ -6,3 +6,4 @@ pydot
 pyyaml
 gdal
 lxml
+matplotlib
