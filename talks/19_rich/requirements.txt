@@ -1,0 +1,2 @@
+rich
+jupyterlab>=3.1.9
