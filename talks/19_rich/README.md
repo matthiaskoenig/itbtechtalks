@@ -40,6 +40,11 @@ python -m rich.progress
 ```
 
 ## Run example notebook
+```shell
+jupyter lab rich.ipynb
 ```
-jupyter lab
+
+## Convert notebook to python script
+```shell
+ipython nbconvert --to python rich.ipynb
 ```
