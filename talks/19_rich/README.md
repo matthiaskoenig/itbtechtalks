@@ -1,6 +1,6 @@
 # Rich - writing rich text (with color and style)
 ## Presentation & video  
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vTj5LUc7ff340WAzh8DtZLuh-VWOosa9GhnZzeyjr5eflbdN0i7dPk7k7u-MDkVZ0iXDhq-7FT5Naoj/pub?start=false&loop=false&delayms=3000" target="_blank">
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vSra5QzYt4NIaVEjALAmg5lQM3Iov4ZxYtN9XfQWOcevibVYnyVl7_ub240TDUIMMPa-NOgKzgrGV7d/pub?start=false&loop=false&delayms=3000" target="_blank">
     <img src="./presentation.png" height="200"/>
 </a>
   
