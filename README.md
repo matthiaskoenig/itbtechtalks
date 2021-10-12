@@ -4,6 +4,7 @@ Short talks introducing current technology and libraries (python/R) useful for T
 This series is organized as part of the Seminar of the Institute of Theoretical Biology (ITB) at the Humboldt-University Berlin.
 
 ## Talks
+- 20: [Pydantic - Data validation using python type annotations](./talks/20_pydantic)
 - 19: [Rich - writing rich text (with color and style)](./talks/19_rich)
 - 18: [NetworkX - Network analysis in Python](./talks/18_networkx)
 - 17: [fastapi - High performance easy to learn web framework](./talks/17_fastapi)
@@ -25,6 +26,12 @@ This series is organized as part of the Seminar of the Institute of Theoretical 
 - 1: [A quick introduction to version control with git](./talks/01_git)
 
 ## Presentations & videos
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vRN4ky-CfL6kQfwRs8be41aXG6nX6SWaGDBTmRyeS-u5ihiBmwVfgn43CMEabqZnFGsfh_51VlncCLP/pub?start=false&loop=false&delayms=3000" target="_blank">
+    <img src="./talks/20_pydantic/presentation.png" height="150"/>
+</a>
+<a href="https://youtu.be/aW4BWvoT9gQ" target="_blank">
+    <img src="./talks/20_pydantic/video.png" height="150"/>
+</a>
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vSra5QzYt4NIaVEjALAmg5lQM3Iov4ZxYtN9XfQWOcevibVYnyVl7_ub240TDUIMMPa-NOgKzgrGV7d/pub?start=false&loop=false&delayms=3000" target="_blank">
     <img src="./talks/19_rich/presentation.png" height="150"/>
 </a>
