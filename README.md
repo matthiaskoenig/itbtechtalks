@@ -27,6 +27,13 @@ This series is organized as part of the Seminar of the Institute of Theoretical 
 - 1: [A quick introduction to version control with git](./talks/01_git)
 
 ## Presentations & videos
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQj1zUsJSaCvcMoHoUX5n6hagFRAi3Wom20VYVt73qwAgdk3ENKoA97zjHaIN6R6vMER1wQZ4RXdZYK/pub?start=false&loop=false&delayms=3000" target="_blank">
+    <img src="./talks/21_hdf5/presentation.png" height="150"/>
+</a>
+<a href="https://youtu.be/RhXai1pTqrQ" target="_blank">
+    <img src="./talks/21_hdf5/video.png" height="150"/>
+</a>
+<br />
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vRN4ky-CfL6kQfwRs8be41aXG6nX6SWaGDBTmRyeS-u5ihiBmwVfgn43CMEabqZnFGsfh_51VlncCLP/pub?start=false&loop=false&delayms=3000" target="_blank">
     <img src="./talks/20_pydantic/presentation.png" height="150"/>
 </a>

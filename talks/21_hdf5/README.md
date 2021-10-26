@@ -1,10 +1,10 @@
 # Rich - writing rich text (with color and style)
 ## Presentation & video  
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vRN4ky-CfL6kQfwRs8be41aXG6nX6SWaGDBTmRyeS-u5ihiBmwVfgn43CMEabqZnFGsfh_51VlncCLP/pub?start=false&loop=false&delayms=3000" target="_blank">
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQj1zUsJSaCvcMoHoUX5n6hagFRAi3Wom20VYVt73qwAgdk3ENKoA97zjHaIN6R6vMER1wQZ4RXdZYK/pub?start=false&loop=false&delayms=3000" target="_blank">
     <img src="./presentation.png" height="200"/>
 </a>
   
-<a href="https://youtu.be/aW4BWvoT9gQ" target="_blank">
+<a href="https://youtu.be/RhXai1pTqrQ" target="_blank">
     <img src="./video.png" height="200"/>
 </a>
 
@@ -23,7 +23,6 @@ Install the virtualenv as a kernel for the notebook
 ```
 (hdf5) ipython kernel install --user --name=hdf5
 ```
-
 
 ## Run example notebook
 ```shell
