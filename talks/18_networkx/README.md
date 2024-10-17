@@ -10,7 +10,12 @@
 
 ## Setup environment
 To run the example applications install the requirements 
+
+```bash
+sudo apt-get -y install graphviz graphviz-dev
 ```
+
+```bash
 cd ./talks/18_networkx
 mkvirtualenv networkx --python=python3
 (networkx) pip install -r requirements.txt
